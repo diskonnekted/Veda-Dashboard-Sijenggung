@@ -1,0 +1,855 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 0,
+        "Name": "EWS Barak Kiyaran",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-0s-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/5rg439mbg3h49835r75trjnj9c/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALrhgU-hDTM-fKhilE1iLi5vqLy310Dbkq7lsuKLP_O1pvH69Fw9mFSRDT5cycuPCtuvBF8xFl0OM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4403003831763,
+          -7.658407530670071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 1,
+        "Name": "EWS Tugu Udang Kaliurang",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-10-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/a0mdqn5kekr58qke152l708cg4/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALpe6DSo58AUvC2pt6_gcGMOLqW1nhrASZ_ZnEPLucxd8kCT9KKNvv7qYqaqVtpqQ3lIb2Z757Nd7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42685260337115,
+          -7.603036029736792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 2,
+        "Name": "EWS Srunen 2",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-08-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/pnp12asj5n60boftjg9pf7m0ls/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALorXDCMQlTZ3DmA7FoWCkgD1mguigvsNDxj0gypXVVoYrjhzpnGr3-4EK3oI-T9VeyyxKr-70Hpu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46116824722928,
+          -7.598681864746686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 3,
+        "Name": "EWS Golf Merapi",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-0c-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/u83t3in7s5gdsl98t8q2njnq5k/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALqN7eDC_1IKJKJnKb6K1hixeTaw800dR9fZ6FAbfiZvpxd6NjTc_W4NylmxIK4IQMv8bsQRh6PkO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45076575623774,
+          -7.625135629390903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 4,
+        "Name": "EWS Turgo 2",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-0o-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/tpa3aki629v5e4mb79p24744ps/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALo1hXmvuE8Yo0kwQyuruk64yMJR2436NU9YYVq_OeIDvfj0jXYxi28LypiRgDQZ7e_IaT7zixElt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4214716948185,
+          -7.595494124964266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 5,
+        "Name": "EWS Jaranan",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-00-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/8hq4f4cr385sm2uiupop31kov8/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALqyxXanLlThGAAUr0rXDrcJaks248a25HO3dMpkF_GBEvaekfgq-FsL8ssOLKXQnFaVnkCkULQgz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46546219428798,
+          -7.672732256855243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 6,
+        "Name": "EWS Bronggang",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-0s-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/ofodintaf2aalpla6fprdn9m6k/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALrBfGOsN0CqRVmEk0Ig3SB7GoYqNB4JCKmwmvmp1hjnR28g1NGMJQC3J3t8CsXPtv8aKTYEoVBpS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46384522677633,
+          -7.664060913992849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 7,
+        "Name": "EWS Masjid An Nur",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-04-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/vp7adq3ti9lug80ds5l0gtdcsg/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALqIYjlJ1zfo8Z9mpKOnAvovtZIpesYtxQgBmX-zNHv5aC7x1uPGpo2L3adqdc4R0_PP6VNeCcPO5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45489800654525,
+          -7.6259458670193645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 8,
+        "Name": "EWS Kalitengah Lor",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-14-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/pnjqkmgmffma7pnji9snfasig0/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALoynxIRybWR8isa1brdIfqIWOs5dcC3McQI4xOeFzWeSvinUBrhoJ7QRevtP16RTnV3jj0XQ_RjS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45777261545484,
+          -7.585387586949601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 9,
+        "Name": "EWS Kejambon",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-0s-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/dk2sao2q8q13ndudgp5r8alpms/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALrT6e0JoMQTnSY-0STSv3eDu7JSr3eyc7vkyTvZmDd9yuL7YmQ4Vc1dMahiEtPZ8MPjdwA7SGHw_"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4740590715582,
+          -7.694009237715068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 10,
+        "Name": "EWS Kali Kuning",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-08-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/1nbbmnnh3tudvtdn61l379rj84/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALqM3WijPzjshweeQ776oSaz6yGu7l1ruHsdJQ2hJHMYzuarnVs6ciM40TO-wiIl8OE4aodCcZl0Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42807431215772,
+          -7.623880203222682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 11,
+        "Name": "EWS Balong",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-04-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/qsu92osbud3eatuaroh04tfih0/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALo9MYo6fbSJlB9QFZ8ChBPJVa4CFr-X4fGd-BO2rbk2icjnvxn6VRhmMeez8U5xDMDIa3xui-PM7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3945042699855,
+          -7.675064764501435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 12,
+        "Name": "EWS Tangkisan",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-0s-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/evl4ktm6v5si1fidcs5u00e36g/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALqUUedeyClDCaqjaSwIvTy-n7LFLdwF94tP-c-GSHNXQyWma1Dcu-7s0Um2EwcoqWKBjTH5H424h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44029140002344,
+          -7.607550424101908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 13,
+        "Name": "EWS Ngrangkah",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-14-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/utktfq2h0kdd6k2s8filhapgjo/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALoysF110AX9rtSlXVq0qhhk1fd7iic1RCQ0QHlhX7Imx1ECvAKvPh9jIwtBdc_D4hVPABfJ7RakP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44216887896752,
+          -7.589991211258155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 14,
+        "Name": "EWS Kliwang",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-0o-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/06pvatflqh7ai4a69abdvirfb4/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALpn3BY5Y60G2Vql-jQqRLmIyOG0nYtZbsPc_fM6tThgNbsn_Mh51nR0Dmc4MX4aTB1vp-TApqALp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4564700582927,
+          -7.669509458067402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 15,
+        "Name": "EWS Kemiri",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-0g-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/8cfen1g4lvoo33dm0jnlesojec/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALre1e__bl5TyudKx7KaovuJULeusABmuxOHIdg65ektWfMwfFIvP0YyN2dB6aGIXp8CU-xi_i7kA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41534518457996,
+          -7.6163119533044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 16,
+        "Name": "EWS Pulowatu",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-00-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/o8e27oct7ru7fcjrn9icc5r4cg/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALqooygkUIbHub_QYcDyujkl4YgWjP3C408ALx6bdN2wUjxWor1TpoS3s6r7-UTWKvUWgHwoDQsCj"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39592360813461,
+          -7.659475892323322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 17,
+        "Name": "EWS Petung",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-04-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/nb57nalj1er5iuss1s8i22j2do/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALp6fjmLZGuH30HpEwWpzP96XOvSXycoOEprrtEBxotAkJ2E_YVG3Yvixg6Z1Ka8tlo5bn_v0FnXs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44517823516973,
+          -7.599225024752946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 18,
+        "Name": "EWS Banjarsari",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-10-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/m06kbrduc8jsbg47gp64bg90kg/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALrlCAvPJFcGS1pDiSK656rdq48GjQBmQtapImOihVvLMuTBiy5SWf_uS7SW_uSAl7YDoSf7uSGb9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46365658056664,
+          -7.648418219647795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 19,
+        "Name": "EWS Watukangsi",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-08-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/5omgqak6vahecrinq2bvtn4o7k/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALraOSYX1Lu4yVH9Xjbo2CJAvJX32WgnySl1UwuqksQcNezUQpaNd_aN_qNcB6f9EwfeGs5E3GKD-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.51593853010968,
+          -7.82028696904286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 20,
+        "Name": "EWS Brayut",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-0o-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/1jehrlo6jm6oiulfr6he8if988/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALq0u6gMJvx6AMvgQSdC8sE9TGHSKp85zDskbtlRGe2gyq4ybXXp8rgtiWYTAogMVYvWXggNQwzC4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43245809074484,
+          -7.653412904412899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 21,
+        "Name": "EWS Gayamharjo",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-0k-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/jpsa3lbrgkn95ua2dnu57qa28c/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALqbDkt4oDae2fXxp10OCpA7Umghr8BSPHH23BB4KLTKRpHRTn2IsPg6bfXPvDiqZJrWExd8ms-1G"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.5319465084749,
+          -7.80395587067612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 22,
+        "Name": "EWS Srunen 1",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-00-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/g5k2c1dkkqea4e1cj7oqqn737k/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALq1d24AzlKTR79auFNSLLvo8mihU1HC-fDJIMKcpSgxvfo0SLbv5f7SPIY8HTQUVSFOR4wvoMmVZ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46088976949117,
+          -7.602608628992924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 23,
+        "Name": "EWS Gunung Cilik",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-14-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/2frkmlhgbnis8efprk0jg689r4/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALquA9iqKKHld-RrFW7lbgMtWVre4vATWyIVy-hRKm788qXrpQRYx7-27F8f2fxqwiIqaofuCfL_v"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.50254464922159,
+          -7.794245906963197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 24,
+        "Name": "EWS Ngepring",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-0c-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/17b1jq0k3nsj29cq2l20nkp14c/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALpt9dmgx7kk_v9MblX9KDZhtqrc04GESgLfOJnyPpsnD8xP8vYQ7L-nT3W0wWy62cTrT-Nd53TLa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4080508644719,
+          -7.614584592816609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 25,
+        "Name": "Jl. Malangyudo No.148",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-0o-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/usl9rohdscr8c8dids2tgodnlc/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALpoOGVFrKI3Gjk12WVbTJN5P9f8v_SRCNUT0aAnFrKUttbw5MNk1ME3-muq1NciI7GQ5gh5--2B4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43071535909338,
+          -7.596633878217792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 26,
+        "Name": "Jalan Watuadeg - Potro",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-00-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/1ii8mk8at7733g5m981fjaue1c/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALrfSIRkajNmE0wmNOP9UkMbDCdIDHwJQmEFaxlfOx1oSSrHVl6nj_JIEs5sUs6JRzDZxm7csrjph"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39273458887553,
+          -7.648382606712214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 27,
+        "Name": "TAEKWONDO CANGKRINGAN",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-08-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/jbn727pmj1pd80m5ffljpbk764/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALoGaWH1D5I0y3Dy8wV6-QwxRmUFf8fe4hocQvlfXG0Z1VdZyUNl2a5qwmj1Qdj6WiuB0ok48SdEK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44958896321538,
+          -7.678438865512514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 28,
+        "Name": "Balai Dusun Kopeng",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-04-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/2c6rvma2e4tuarupkkoj2tpmhk/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALqsRlNIgdF9VAzqlb7CTE_qCyI-9kDvGgZ9T_aS7wT3CbCeBejZLRiJwSb7cyCKfb99ZOZoOGlWJ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45391884288544,
+          -7.611592859213115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 29,
+        "Name": "Jembatan Lojajar Waterfall",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-10-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/lii96q5kttmm9oakd2j9upsqnk/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALoeWAJURfbevkeLIDptliOf_c3h8wxJomzy2UAuEqRsweA_XsF0FsUK0kElks07JFuO5MZ8IVJw9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38914132773856,
+          -7.715979493511346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 30,
+        "Name": "Jalan Cangkringan",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-0o-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/4b5r5t41n9tsb2j4ltf3r1kl48/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALoeizzXQ0zojjoY0MCgs_-HQ29Olbt3cmAMfHHP-cIXUeIsTo7j5LrLS7O9tEH69wvmj9CpjDYy8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43252097281473,
+          -7.653412904412899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 31,
+        "Name": "Unnamed Road",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-0k-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/uee2q69057bg3k2giajdmvlino/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALpUepzBK-GN09j8g3d5ZA0RtBpSgi4Gd1ZY-4yktw4hf8n0EXNwyzYb48ZJEBFYYsDKlQh7oIuHH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45293967922561,
+          -7.6171845348210905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 32,
+        "Name": "Unnamed Road",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-10-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/tq4o35fqqhho6nd7v6rjb1eis8/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALqiqdvKLnwTMBd4rkEE-OBUf4ZNpLIbs2q2wRDpcOFLGDS7_RkLfyydqn8idbZyFT1HQtLJLr92a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.48141627373616,
+          -7.697445503619896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 33,
+        "Name": "Lele anton",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-0k-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/j40rgu6us80fptkvqhnh201rt8/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALqtrmPnI50jvUCg6-qc54AhkCdwewWG4oTaHi5oF5mJT2VCDw_fCQfq0nleOMOd6E9PBVWlLUoDA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4776792821537,
+          -7.70981048898666
+        ]
+      }
+    }
+  ]
+}

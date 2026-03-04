@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor Peta Desa Sijenggung</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Leaflet Draw -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .leaflet-container { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-100 h-screen flex flex-col overflow-hidden">
+
+    <!-- Header -->
+    <header class="bg-slate-800 text-white shadow-md z-30 h-14 flex items-center justify-between px-4">
+        <div class="flex items-center space-x-3">
+            <img src="/logo.png" alt="Logo" class="h-8 w-auto">
+            <div>
+                <h1 class="font-bold text-lg leading-tight">Editor Peta Sijenggung</h1>
+                <p class="text-[10px] text-slate-300">Admin Panel</p>
+            </div>
+        </div>
+        <div class="flex items-center space-x-4">
+            <button onclick="saveCurrentLayer()" class="bg-green-600 hover:bg-green-700 px-3 py-1.5 rounded text-sm font-medium flex items-center gap-2">
+                <i class="fas fa-save"></i> Simpan Perubahan
+            </button>
+            <a href="/" class="text-slate-300 hover:text-white text-sm">
+                <i class="fas fa-external-link-alt"></i> Lihat Dashboard
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="flex flex-1 overflow-hidden">
+        
+        <!-- Sidebar Controls -->
+        <div class="w-80 bg-white shadow-xl z-20 flex flex-col border-r border-gray-200">
+            <div class="p-4 border-b border-gray-100">
+                <h2 class="font-bold text-gray-700 mb-3">Layer Manager</h2>
+                
+                <!-- Layer Selection -->
+                <div class="space-y-2">
+                    <label class="block text-xs font-semibold text-gray-500 uppercase">Pilih Layer untuk Diedit</label>
+                    <select id="layer-select" class="w-full border border-gray-300 rounded p-2 text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                        <option value="" disabled selected>-- Pilih Layer --</option>
+                        <optgroup label="Data Penduduk">
+                            <option value="households">Lokasi Rumah Tangga</option>
+                        </optgroup>
+                        <optgroup label="Layer Peta (GeoJSON)" id="geojson-layers-opt">
+                            <!-- Populated via JS -->
+                        </optgroup>
+                    </select>
+                </div>
+
+                <!-- Filter/Search -->
+                <div id="filter-container" class="space-y-2 mt-3 hidden">
+                    <label class="block text-xs font-semibold text-gray-500 uppercase">Cari / Filter</label>
+                    <div class="flex gap-1">
+                        <input type="text" id="search-input" placeholder="Cari Nama / KK..." class="w-full border border-gray-300 rounded px-2 py-1.5 text-sm">
+                        <button onclick="filterHouseholds()" class="bg-blue-600 text-white px-3 rounded text-sm hover:bg-blue-700">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    <div class="text-[10px] text-gray-400 italic">Tekan enter atau klik ikon cari</div>
+                </div>
+
+                <div class="mt-4 flex gap-2">
+                    <button onclick="createNewLayer()" class="flex-1 bg-blue-50 text-blue-600 border border-blue-200 py-1.5 rounded text-xs hover:bg-blue-100">
+                        <i class="fas fa-plus"></i> Buat Layer Baru
+                    </button>
+                    <button onclick="refreshLayers()" class="bg-gray-50 text-gray-600 border border-gray-200 px-3 py-1.5 rounded text-xs hover:bg-gray-100">
+                        <i class="fas fa-sync"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Feature Editor Form -->
+            <div class="flex-1 overflow-y-auto p-4 hidden" id="feature-editor">
+                <h3 class="font-bold text-gray-700 mb-2 border-b pb-1">Edit Properti</h3>
+                <div id="form-container" class="space-y-3">
+                    <!-- Dynamic inputs generated here -->
+                </div>
+                <div class="mt-4 pt-3 border-t flex justify-end gap-2">
+                    <button onclick="applyProperties()" class="bg-blue-600 text-white px-3 py-1.5 rounded text-sm hover:bg-blue-700">Update</button>
+                </div>
+            </div>
+
+            <div id="editor-instructions" class="p-6 text-center text-gray-400 text-sm mt-10">
+                <i class="fas fa-map-marked-alt text-4xl mb-3 text-gray-300"></i>
+                <p>Pilih layer di atas untuk mulai mengedit geometri atau data.</p>
+            </div>
+        </div>
+
+        <!-- Map Area -->
+        <div class="flex-1 relative bg-gray-100">
+            <div id="map" class="h-full w-full"></div>
+        </div>
+    </div>
+
+    <script>
+        // --- Map Initialization ---
+        const map = L.map('map').setView([-7.295, 109.665], 15);
+        L.tileLayer('https://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}', {
+            maxZoom: 20,
+            subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+            attribution: 'Google Satellite'
+        }).addTo(map);
+
+        // Feature Group for Editable Layers
+        const drawnItems = new L.FeatureGroup();
+        map.addLayer(drawnItems);
+
+        // Draw Control
+        const drawControl = new L.Control.Draw({
+            edit: {
+                featureGroup: drawnItems
+            },
+            draw: {
+                polygon: true,
+                polyline: true,
+                rectangle: true,
+                circle: false,
+                circlemarker: false,
+                marker: true
+            }
+        });
+        map.addControl(drawControl);
+
+        // State
+        let currentLayerName = null;
+        let currentGeoJSON = null;
+        let selectedLayer = null; // The specific feature selected
+        let allHouseholdsData = []; // Cache for filtering
+
+        // --- Event Listeners ---
+        
+        // 1. Draw Created
+        map.on(L.Draw.Event.CREATED, function (e) {
+            const layer = e.layer;
+            
+            // Add default props
+            layer.feature = layer.feature || {};
+            layer.feature.type = "Feature";
+            layer.feature.properties = layer.feature.properties || {};
+            
+            // If editing households, ensure required props
+            if (currentLayerName === 'households') {
+                layer.feature.properties = {
+                    head_name: "Nama Baru",
+                    no_kk: "",
+                    dusun: ""
+                };
+            }
+
+            drawnItems.addLayer(layer);
+            selectFeature(layer);
+        });
+
+        // 2. Click to Select/Edit
+        drawnItems.on('click', function(e) {
+            selectFeature(e.layer);
+        });
+
+        // --- Functions ---
+
+        function selectFeature(layer) {
+            selectedLayer = layer;
+            const props = layer.feature ? layer.feature.properties : {};
+            
+            const container = document.getElementById('form-container');
+            container.innerHTML = '';
+            
+            // Show Editor Panel
+            document.getElementById('feature-editor').classList.remove('hidden');
+            document.getElementById('editor-instructions').classList.add('hidden');
+
+            // Generate Inputs based on keys
+            // For households, specific fields. For GeoJSON, generic.
+            
+            if (currentLayerName === 'households') {
+                createInput(container, 'No KK', 'no_kk', props.no_kk);
+                createInput(container, 'Nama Kepala', 'head_name', props.head_name);
+                createInput(container, 'Alamat', 'address', props.address);
+                createInput(container, 'Dusun', 'dusun', props.dusun);
+            } else {
+                // Generic GeoJSON
+                const keys = Object.keys(props).length ? Object.keys(props) : ['name', 'keterangan'];
+                keys.forEach(k => {
+                    createInput(container, k, k, props[k]);
+                });
+                // Add button to add new property
+                const addBtn = document.createElement('button');
+                addBtn.className = "text-xs text-blue-600 mt-2 hover:underline";
+                addBtn.innerText = "+ Tambah Properti";
+                addBtn.onclick = () => {
+                    const key = prompt("Nama Properti Baru:");
+                    if (key) createInput(container, key, key, "");
+                };
+                container.appendChild(addBtn);
+            }
+        }
+
+        function createInput(container, label, key, value) {
+            const div = document.createElement('div');
+            div.innerHTML = `
+                <label class="block text-xs text-gray-500 mb-1">${label}</label>
+                <input type="text" data-key="${key}" class="prop-input w-full border border-gray-300 rounded px-2 py-1 text-sm" value="${value || ''}">
+            `;
+            container.appendChild(div);
+        }
+
+        function applyProperties() {
+            if (!selectedLayer) return;
+            
+            const inputs = document.querySelectorAll('.prop-input');
+            const newProps = {};
+            inputs.forEach(input => {
+                newProps[input.dataset.key] = input.value;
+            });
+            
+            if (!selectedLayer.feature) selectedLayer.feature = {};
+            selectedLayer.feature.properties = newProps;
+            
+            // Update bindPopup if exists
+            if (newProps.name || newProps.head_name) {
+                selectedLayer.bindPopup(newProps.name || newProps.head_name);
+            }
+            
+            alert("Properti diupdate sementara. Klik 'Simpan Perubahan' untuk menyimpan ke server.");
+        }
+
+        async function loadLayersList() {
+            try {
+                const res = await fetch('/api/layers');
+                const files = await res.json();
+                const optGroup = document.getElementById('geojson-layers-opt');
+                optGroup.innerHTML = '';
+                files.forEach(f => {
+                    const opt = document.createElement('option');
+                    opt.value = f;
+                    opt.innerText = f;
+                    optGroup.appendChild(opt);
+                });
+            } catch (e) {
+                console.error("Failed to load layers", e);
+            }
+        }
+
+        document.getElementById('layer-select').addEventListener('change', async (e) => {
+            currentLayerName = e.target.value;
+            drawnItems.clearLayers();
+            document.getElementById('feature-editor').classList.add('hidden');
+            document.getElementById('editor-instructions').classList.remove('hidden');
+            document.getElementById('search-input').value = '';
+
+            if (!currentLayerName) return;
+
+            console.log("Loading layer:", currentLayerName);
+
+            if (currentLayerName === 'households') {
+                document.getElementById('filter-container').classList.remove('hidden');
+                loadHouseholds();
+            } else {
+                document.getElementById('filter-container').classList.add('hidden');
+                loadGeoJSON(currentLayerName);
+            }
+        });
+
+        // Search Input Enter Key
+        document.getElementById('search-input').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') filterHouseholds();
+        });
+
+        async function loadGeoJSON(filename) {
+            try {
+                const res = await fetch(`/layers/${filename}?v=${new Date().getTime()}`);
+                if (!res.ok) throw new Error("File not found");
+                const data = await res.json();
+                currentGeoJSON = data;
+                
+                L.geoJSON(data, {
+                    onEachFeature: (feature, layer) => {
+                        drawnItems.addLayer(layer);
+                        const label = feature.properties.name || feature.properties.NAMOBJ || feature.properties.Text || "Fitur";
+                        layer.bindPopup(label);
+                    },
+                    pointToLayer: (feature, latlng) => {
+                        // Use simpler markers for editor
+                        return L.circleMarker(latlng, { radius: 6, color: 'blue' });
+                    }
+                });
+                
+                if (drawnItems.getBounds().isValid()) {
+                    map.fitBounds(drawnItems.getBounds());
+                }
+            } catch (e) {
+                console.error(e);
+                alert("Gagal memuat layer");
+            }
+        }
+
+        async function loadHouseholds() {
+            try {
+                const res = await fetch(`/residents.json?v=${new Date().getTime()}`);
+                const data = await res.json();
+                allHouseholdsData = data;
+                renderHouseholds(data);
+            } catch (e) {
+                console.error(e);
+            }
+        }
+
+        function renderHouseholds(data) {
+            drawnItems.clearLayers();
+            let bounds = L.latLngBounds([]);
+            
+            data.forEach(hh => {
+                if (hh.latitude && hh.longitude) {
+                    const marker = L.marker([hh.latitude, hh.longitude]);
+                    marker.feature = {
+                        type: "Feature",
+                        properties: hh
+                    };
+                    
+                    let popupContent = `<b>${hh.head_name}</b><br>${hh.no_kk}`;
+                    if (hh.dusun) {
+                        popupContent += `<br><span class="text-xs text-gray-500">${hh.dusun}</span>`;
+                    }
+                    
+                    marker.bindPopup(popupContent);
+                    drawnItems.addLayer(marker);
+                    bounds.extend([hh.latitude, hh.longitude]);
+                }
+            });
+            
+            if (bounds.isValid()) {
+                map.fitBounds(bounds);
+            }
+        }
+
+        function filterHouseholds() {
+            const term = document.getElementById('search-input').value.toUpperCase();
+            if (!term) {
+                renderHouseholds(allHouseholdsData);
+                return;
+            }
+
+            const filtered = allHouseholdsData.filter(hh => {
+                const name = (hh.head_name || "").toUpperCase();
+                const kk = (hh.no_kk || "");
+                return name.includes(term) || kk.includes(term);
+            });
+
+            renderHouseholds(filtered);
+            
+            if (filtered.length === 0) alert("Tidak ditemukan");
+            else if (filtered.length === 1) {
+                // Auto select if only one
+                // drawnItems.getLayers()[0].fire('click'); // Need to find the layer instance
+            }
+        }
+
+        async function saveCurrentLayer() {
+            if (!currentLayerName) return alert("Pilih layer terlebih dahulu");
+            
+            const features = [];
+            drawnItems.eachLayer(layer => {
+                const geo = layer.toGeoJSON();
+                // Ensure properties are synced
+                if (layer.feature && layer.feature.properties) {
+                    geo.properties = layer.feature.properties;
+                }
+                features.push(geo);
+            });
+
+            const collection = {
+                type: "FeatureCollection",
+                features: features
+            };
+
+            if (currentLayerName === 'households') {
+                // Special save for households
+                const residents = features.map(f => {
+                    const p = f.properties;
+                    // Extract coords
+                    const coords = f.geometry.coordinates; 
+                    // GeoJSON Point is [lng, lat]
+                    return {
+                        ...p,
+                        no_kk: p.no_kk, // Ensure keys match Go struct
+                        head_name: p.head_name,
+                        latitude: parseFloat(coords[1]),
+                        longitude: parseFloat(coords[0])
+                    };
+                });
+                
+                try {
+                    const res = await fetch('/api/save-households', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify(residents)
+                    });
+                    if (res.ok) alert("Data penduduk berhasil disimpan!");
+                    else alert("Gagal menyimpan data penduduk");
+                } catch(e) { console.error(e); alert("Error saving"); }
+
+            } else {
+                // Save GeoJSON File
+                try {
+                    const res = await fetch('/api/save-layer', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({
+                            filename: currentLayerName,
+                            data: collection
+                        })
+                    });
+                    if (res.ok) alert("Layer berhasil disimpan!");
+                    else alert("Gagal menyimpan layer");
+                } catch(e) { console.error(e); alert("Error saving"); }
+            }
+        }
+
+        async function createNewLayer() {
+            const name = prompt("Nama Layer Baru (tanpa spasi, misal: jembatan):");
+            if (!name) return;
+            const filename = name.endsWith('.geojson') ? name : name + '.geojson';
+            
+            // Create empty
+            try {
+                const res = await fetch('/api/save-layer', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({
+                        filename: filename,
+                        data: { type: "FeatureCollection", features: [] }
+                    })
+                });
+                if (res.ok) {
+                    alert("Layer dibuat. Silakan refresh atau pilih dari list.");
+                    loadLayersList();
+                }
+            } catch(e) { alert("Gagal membuat layer"); }
+        }
+
+        // Init
+        loadLayersList();
+
+    </script>
+</body>
+</html>

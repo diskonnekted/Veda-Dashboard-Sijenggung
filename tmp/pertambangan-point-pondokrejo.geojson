@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "name": "TAMBANGAN_PT_25K",
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "FCODE": null,
+        "LCODE": "CA0100",
+        "METADATA": null,
+        "NAMOBJ": null,
+        "REMARK": "Tambangan",
+        "SRS_ID": null,
+        "cat": 367
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.311150653000084,
+          -7.668317839999929,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FCODE": null,
+        "LCODE": "CA0100",
+        "METADATA": null,
+        "NAMOBJ": null,
+        "REMARK": "Tambangan",
+        "SRS_ID": null,
+        "cat": 374
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.306415683000068,
+          -7.675597493999931,
+          0.0
+        ]
+      }
+    }
+  ]
+}

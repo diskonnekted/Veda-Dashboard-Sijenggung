@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Peta Sebaran Penduduk</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=2029&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        .backdrop {
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+    </style>
+</head>
+<body class="backdrop flex flex-col min-h-screen items-center justify-center p-4">
+
+    <div class="bg-white p-8 rounded-lg shadow-2xl w-full max-w-md flex flex-col items-center">
+        <!-- Veda Logo -->
+        <img src="veda-logo.png" alt="Veda Logo" class="h-24 object-contain mb-6">
+        
+        <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Login Dashboard</h2>
+        
+        <form id="loginForm" class="w-full space-y-4">
+            <div>
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+                    Username
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500" id="username" type="text" placeholder="Username" required>
+            </div>
+            <div>
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+                    Password
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500" id="password" type="password" placeholder="******************" required>
+            </div>
+            
+            <div id="errorMsg" class="text-red-500 text-xs italic mb-4 hidden">Username atau Password salah.</div>
+
+            <div class="flex items-center justify-between">
+                <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full transition duration-200" type="submit">
+                    Masuk
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer Clasnet -->
+    <div class="mt-8 text-center">
+        <p class="text-white text-xs mb-2 opacity-80">Supported by</p>
+        <a href="https://clasnet.co.id" target="_blank" class="inline-block hover:opacity-80 transition">
+            <img src="clasnet-logo.png" alt="Clasnet Logo" class="h-12 object-contain bg-white/10 p-1 rounded backdrop-blur-sm">
+        </a>
+    </div>
+
+    <script>
+        // Check if already logged in
+        if (sessionStorage.getItem('isLoggedIn') === 'true') {
+            window.location.href = '/';
+        }
+
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const user = document.getElementById('username').value;
+            const pass = document.getElementById('password').value;
+            const errorMsg = document.getElementById('errorMsg');
+
+            // Simple hardcoded credentials
+            if (user === 'admin' && pass === 'sijenggung') {
+                sessionStorage.setItem('isLoggedIn', 'true');
+                window.location.href = '/';
+            } else {
+                errorMsg.classList.remove('hidden');
+                // Shake animation
+                const card = document.querySelector('.bg-white');
+                card.classList.add('animate-pulse');
+                setTimeout(() => card.classList.remove('animate-pulse'), 500);
+            }
+        });
+    </script>
+</body>
+</html>

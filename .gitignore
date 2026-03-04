@@ -1,0 +1,25 @@
+# Binaries
+*.exe
+*.dll
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Sensitive Data
+*.xlsx
+residents.json
+1 KK_ART Pondokrejo.xlsx
+
+# Temp Files
+arcgis_*.json
+*.log
+__pycache__/
+*.pyc
+
+# Backup Files
+*_backup.*

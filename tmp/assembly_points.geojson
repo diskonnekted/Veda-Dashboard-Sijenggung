@@ -1,0 +1,4349 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 0,
+        "Name": "Titik Kumpul Ds Ngandong 2",
+        "descriptio": "Titik Kumpul Ds Ngandong 2    <br />       <br />   FID   0    <br />   OID_   0    <br />   Name   Titik Kumpul Ds Ngandong 2",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40993732656881,
+          -7.595957150088165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 1,
+        "Name": "Titik Kumpul Kaliurang Baratl",
+        "descriptio": "Titik Kumpul Kaliurang Baratl    <br />       <br />   FID   1    <br />   OID_   0    <br />   Name   Titik Kumpul Kaliurang Baratl",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42704124958084,
+          -7.599652428865061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 2,
+        "Name": "Titik Kumpul Kaliurang Barat 2",
+        "descriptio": "Titik Kumpul Kaliurang Barat 2    <br />       <br />   FID   2    <br />   OID_   0    <br />   Name   Titik Kumpul Kaliurang Barat 2",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42234306064422,
+          -7.603009317202762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 3,
+        "Name": "Titik Kumpul Kaliurang Timur Patung Kera",
+        "descriptio": "Titik Kumpul Kaliurang Timur Patung Kera    <br />       <br />   FID   3    <br />   OID_   0    <br />   Name   Titik Kumpul Kaliurang Timur Patung Kera",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42951161661252,
+          -7.599981885911165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 4,
+        "Name": "Titik Kumpul Kopeng",
+        "descriptio": "Titik Kumpul Kopeng    <br />       <br />   FID   4    <br />   OID_   0    <br />   Name   Titik Kumpul Kopeng",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45384697766268,
+          -7.6115305312076975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 5,
+        "Name": "Titik Kumpul Lapangan Gondang",
+        "descriptio": "Titik Kumpul Lapangan Gondang    <br />       <br />   FID   5    <br />   OID_   0    <br />   Name   Titik Kumpul Lapangan Gondang",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43489252516513,
+          -7.612509970245324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 6,
+        "Name": "Titik Kumpul Lapangan Stiper Kalor",
+        "descriptio": "Titik Kumpul Lapangan Stiper Kalor    <br />       <br />   FID   6    <br />   OID_   0    <br />   Name   Titik Kumpul Lapangan Stiper Kalor",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4561736142489,
+          -7.587604812544996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 7,
+        "Name": "Titik Kumpul Masjid Alislah Kemiri Kebo",
+        "descriptio": "Titik Kumpul Masjid Alislah Kemiri Kebo    <br />       <br />   FID   7    <br />   OID_   0    <br />   Name   Titik Kumpul Masjid Alislah Kemiri Kebo",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40433183919514,
+          -7.611227795052479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 8,
+        "Name": "Tk Kumpul Ngandong 3",
+        "descriptio": "Tk Kumpul Ngandong 3    <br />       <br />   FID   8    <br />   OID_   0    <br />   Name   Tk Kumpul Ngandong 3",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40860781994813,
+          -7.598272268222077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 9,
+        "Name": "Titik Kumpul Ngandong I Rmh P Dukuh",
+        "descriptio": "Titik Kumpul Ngandong I Rmh P Dukuh    <br />       <br />   FID   9    <br />   OID_   0    <br />   Name   Titik Kumpul Ngandong I Rmh P Dukuh",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40998224233304,
+          -7.595556455298472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 10,
+        "Name": "Titik Kumpul Ngandong RT 1",
+        "descriptio": "Titik Kumpul Ngandong RT 1    <br />       <br />   FID   10    <br />   OID_   0    <br />   Name   Titik Kumpul Ngandong RT 1",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40630813282047,
+          -7.598770907417741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 11,
+        "Name": "Titik Kumpul Pancoh Wetan RT 3 dan 4",
+        "descriptio": "Titik Kumpul Pancoh Wetan RT 3 dan 4    <br />       <br />   FID   11    <br />   OID_   0    <br />   Name   Titik Kumpul Pancoh Wetan RT 3 dan 4",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40071162859962,
+          -7.627780025653829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 12,
+        "Name": "Titik Kumpul Pancoh Kulon",
+        "descriptio": "Titik Kumpul Pancoh Kulon    <br />       <br />   FID   12    <br />   OID_   0    <br />   Name   Titik Kumpul Pancoh Kulon",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39733396313086,
+          -7.630477827220009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 13,
+        "Name": "Titik Kumpul Rt 6 Tritis Ngandong",
+        "descriptio": "Titik Kumpul Rt 6 Tritis Ngandong    <br />       <br />   FID   13    <br />   OID_   0    <br />   Name   Titik Kumpul Rt 6 Tritis Ngandong",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40452048540483,
+          -7.595779063561095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 14,
+        "Name": "Titik Kumpul RT 7 Titis Ngandong",
+        "descriptio": "Titik Kumpul RT 7 Titis Ngandong    <br />       <br />   FID   14    <br />   OID_   0    <br />   Name   Titik Kumpul RT 7 Titis Ngandong",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40279572005907,
+          -7.597114710714738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 15,
+        "Name": "Titik Kumpul Sukorejo RT 1",
+        "descriptio": "Titik Kumpul Sukorejo RT 1    <br />       <br />   FID   15    <br />   OID_   0    <br />   Name   Titik Kumpul Sukorejo RT 1",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40338860814667,
+          -7.623532957036696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 16,
+        "Name": "Titik Kumpul  Tangkisan",
+        "descriptio": "Titik Kumpul  Tangkisan    <br />       <br />   FID   16    <br />   OID_   0    <br />   Name   Titik Kumpul  Tangkisan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4359884698119,
+          -7.607523711848924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 17,
+        "Name": "Titik Kumpul Tegal Panggung Sukorejo Rt 2",
+        "descriptio": "Titik Kumpul Tegal Panggung Sukorejo Rt 2    <br />       <br />   FID   17    <br />   OID_   0    <br />   Name   Titik Kumpul Tegal Panggung Sukorejo Rt 2",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40539185123055,
+          -7.617451651256642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 18,
+        "Name": "Titik Kumpul Tunggularum",
+        "descriptio": "Titik Kumpul Tunggularum    <br />       <br />   FID   18    <br />   OID_   0    <br />   Name   Titik Kumpul Tunggularum",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39393833135642,
+          -7.601451083174772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 19,
+        "Name": "Titik Kumpul Komplek",
+        "descriptio": "Titik Kumpul Komplek    <br />       <br />   FID   19    <br />   OID_   0    <br />   Name   Titik Kumpul Komplek",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40116078624176,
+          -7.609170964338923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 20,
+        "Name": "Titik Kumpul Kaliurang Barat 3",
+        "descriptio": "Titik Kumpul Kaliurang Barat 3    <br />       <br />   FID   20    <br />   OID_   0    <br />   Name   Titik Kumpul Kaliurang Barat 3",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42312459494153,
+          -7.599688045855213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 21,
+        "Name": "Titik Kumpul Kaliurang Timur 2",
+        "descriptio": "Titik Kumpul Kaliurang Timur 2    <br />       <br />   FID   21    <br />   OID_   0    <br />   Name   Titik Kumpul Kaliurang Timur 2",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4301404373115,
+          -7.598477066533215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 22,
+        "Name": "Titik Kumpul Pak Dukuh Kalor",
+        "descriptio": "Titik Kumpul Pak Dukuh Kalor    <br />       <br />   FID   22    <br />   OID_   0    <br />   Name   Titik Kumpul Pak Dukuh Kalor",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45779058176052,
+          -7.585538964160943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 23,
+        "Name": "Titik Kumpul Masjid di Srunen",
+        "descriptio": "Titik Kumpul Masjid di Srunen    <br />       <br />   FID   23    <br />   OID_   0    <br />   Name   Titik Kumpul Masjid di Srunen",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46079095480991,
+          -7.600792171084339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 24,
+        "Name": "Titik Kumpul Pelem Kloposawit",
+        "descriptio": "Titik Kumpul Pelem Kloposawit    <br />       <br />   FID   24    <br />   OID_   0    <br />   Name   Titik Kumpul Pelem Kloposawit",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40055891500131,
+          -7.6127147617612465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 25,
+        "Name": "Titik Kumpul Kloposawit  2",
+        "descriptio": "Titik Kumpul Kloposawit  2    <br />       <br />   FID   25    <br />   OID_   0    <br />   Name   Titik Kumpul Kloposawit  2",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39705548539276,
+          -7.615599640544807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 26,
+        "Name": "Titik Kumpul Sidorejo Nganggring",
+        "descriptio": "Titik Kumpul Sidorejo Nganggring    <br />       <br />   FID   26    <br />   OID_   0    <br />   Name   Titik Kumpul Sidorejo Nganggring",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3957080124664,
+          -7.605404534477805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 27,
+        "Name": "Titik Kumpul Nganggring 2",
+        "descriptio": "Titik Kumpul Nganggring 2    <br />       <br />   FID   27    <br />   OID_   0    <br />   Name   Titik Kumpul Nganggring 2",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39632785001253,
+          -7.609909999886669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 28,
+        "Name": "Titik Kumpul Bening Nganggring",
+        "descriptio": "Titik Kumpul Bening Nganggring    <br />       <br />   FID   28    <br />   OID_   0    <br />   Name   Titik Kumpul Bening Nganggring",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39149491378329,
+          -7.6133647515768175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 29,
+        "Name": "Titik Kumpul Bangunmulyo Girikerto",
+        "descriptio": "Titik Kumpul Bangunmulyo Girikerto    <br />       <br />   FID   29    <br />   OID_   0    <br />   Name   Titik Kumpul Bangunmulyo Girikerto",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3968309065717,
+          -7.622740522377944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 30,
+        "Name": "Titik Kumpul Kuncen",
+        "descriptio": "Titik Kumpul Kuncen    <br />       <br />   FID   30    <br />   OID_   0    <br />   Name   Titik Kumpul Kuncen",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39345324110293,
+          -7.623319266936096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 31,
+        "Name": "Titik Kumpul Sorowangsan",
+        "descriptio": "Titik Kumpul Sorowangsan    <br />       <br />   FID   31    <br />   OID_   0    <br />   Name   Titik Kumpul Sorowangsan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38859335541517,
+          -7.622571350743934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 32,
+        "Name": "Titik Kumpul Babadan",
+        "descriptio": "Titik Kumpul Babadan    <br />       <br />   FID   32    <br />   OID_   0    <br />   Name   Titik Kumpul Babadan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3925189932073,
+          -7.620007056738003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 33,
+        "Name": "Titik Kumpul Nangsri Lor",
+        "descriptio": "Titik Kumpul Nangsri Lor    <br />       <br />   FID   33    <br />   OID_   0    <br />   Name   Titik Kumpul Nangsri Lor",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39352510632567,
+          -7.628875174875815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 34,
+        "Name": "Titik Kumpul Nangsri Kidul",
+        "descriptio": "Titik Kumpul Nangsri Kidul    <br />       <br />   FID   34    <br />   OID_   0    <br />   Name   Titik Kumpul Nangsri Kidul",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3915398295475,
+          -7.632774951773137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 35,
+        "Name": "Titik Kumpul Glagahombo",
+        "descriptio": "Titik Kumpul Glagahombo    <br />       <br />   FID   35    <br />   OID_   0    <br />   Name   Titik Kumpul Glagahombo",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39560919778512,
+          -7.635659695357768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 36,
+        "Name": "Titik Kumpul Daleman",
+        "descriptio": "Titik Kumpul Daleman    <br />       <br />   FID   36    <br />   OID_   0    <br />   Name   Titik Kumpul Daleman",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38645536503867,
+          -7.637369163849912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 37,
+        "Name": "Titik Kumpul Nglempong",
+        "descriptio": "Titik Kumpul Nglempong    <br />       <br />   FID   37    <br />   OID_   0    <br />   Name   Titik Kumpul Nglempong",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39028218814956,
+          -7.638588936665947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 38,
+        "Name": "Titik Kumpul Surodadi",
+        "descriptio": "Titik Kumpul Surodadi    <br />       <br />   FID   38    <br />   OID_   0    <br />   Name   Titik Kumpul Surodadi",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39060558165187,
+          -7.6422037174026105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 39,
+        "Name": "Titik Kumpul Bayan",
+        "descriptio": "Titik Kumpul Bayan    <br />       <br />   FID   39    <br />   OID_   0    <br />   Name   Titik Kumpul Bayan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38725486564164,
+          -7.642061263568447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 40,
+        "Name": "Titik Kumpul Karanggawang",
+        "descriptio": "Titik Kumpul Karanggawang    <br />       <br />   FID   40    <br />   OID_   0    <br />   Name   Titik Kumpul Karanggawang",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38111937225025,
+          -7.646299244807858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 41,
+        "Name": "Titik Kumpul Ponosaran Lor",
+        "descriptio": "Titik Kumpul Ponosaran Lor    <br />       <br />   FID   41    <br />   OID_   0    <br />   Name   Titik Kumpul Ponosaran Lor",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38420957682806,
+          -7.641705128775119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 42,
+        "Name": "Titik Kumpul Merapi Golf",
+        "descriptio": "Titik Kumpul Merapi Golf    <br />       <br />   FID   42    <br />   OID_   0    <br />   Name   Titik Kumpul Merapi Golf",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44841217019302,
+          -7.624930843813395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 43,
+        "Name": "Turgo RT 3",
+        "descriptio": "Turgo RT 3    <br />       <br />   FID   43    <br />   OID_   0    <br />   Name   Turgo RT 3",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42145372851283,
+          -7.588468547936658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 44,
+        "Name": "Turgo RT 2",
+        "descriptio": "Turgo RT 2    <br />       <br />   FID   44    <br />   OID_   0    <br />   Name   Turgo RT 2",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41848928807482,
+          -7.588708968819542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 45,
+        "Name": "Turgo RT 4",
+        "descriptio": "Turgo RT 4    <br />       <br />   FID   45    <br />   OID_   0    <br />   Name   Turgo RT 4",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42135491383158,
+          -7.5941228553242555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 46,
+        "Name": "Turgo RT 1",
+        "descriptio": "Turgo RT 1    <br />       <br />   FID   46    <br />   OID_   0    <br />   Name   Turgo RT 1",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4160907862659,
+          -7.595690020269883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 47,
+        "Name": "Gardu Pantau Turgo 1",
+        "descriptio": "Gardu Pantau Turgo 1    <br />       <br />   FID   47    <br />   OID_   0    <br />   Name   Gardu Pantau Turgo 1",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41701605100866,
+          -7.589848740064906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 48,
+        "Name": "Gardu Pantau Turgo 2",
+        "descriptio": "Gardu Pantau Turgo 2    <br />       <br />   FID   48    <br />   OID_   0    <br />   Name   Gardu Pantau Turgo 2",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42159745895832,
+          -7.594265325100936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 49,
+        "Name": "Pasar Ngepring",
+        "descriptio": "Pasar Ngepring    <br />       <br />   FID   49    <br />   OID_   0    <br />   Name   Pasar Ngepring",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40792510033212,
+          -7.614629112504227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 50,
+        "Name": "Musholla Kratuan",
+        "descriptio": "Musholla Kratuan    <br />       <br />   FID   50    <br />   OID_   0    <br />   Name   Musholla Kratuan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40544575014759,
+          -7.62085291930528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 51,
+        "Name": "Kemiri 2",
+        "descriptio": "Kemiri 2    <br />       <br />   FID   51    <br />   OID_   0    <br />   Name   Kemiri 2",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4106290293377,
+          -7.62135153224642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 52,
+        "Name": "Wringin Kidul",
+        "descriptio": "Wringin Kidul    <br />       <br />   FID   52    <br />   OID_   0    <br />   Name   Wringin Kidul",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39766633978604,
+          -7.646138985778552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 53,
+        "Name": "Kemiri 1",
+        "descriptio": "Kemiri 1    <br />       <br />   FID   53    <br />   OID_   0    <br />   Name   Kemiri 1",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41250650828177,
+          -7.616116067413544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 54,
+        "Name": "Ngelosari",
+        "descriptio": "Ngelosari    <br />       <br />   FID   54    <br />   OID_   0    <br />   Name   Ngelosari",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40333470922963,
+          -7.625803407767266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 55,
+        "Name": "Randusari dan Karangnongko",
+        "descriptio": "Randusari dan Karangnongko    <br />       <br />   FID   55    <br />   OID_   0    <br />   Name   Randusari dan Karangnongko",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40187943846915,
+          -7.628973114913562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 56,
+        "Name": "Candi dan Tawangrejo",
+        "descriptio": "Candi dan Tawangrejo    <br />       <br />   FID   56    <br />   OID_   0    <br />   Name   Candi dan Tawangrejo",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40063078022405,
+          -7.632222930720135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 57,
+        "Name": "Relokasi Turgo",
+        "descriptio": "Relokasi Turgo    <br />       <br />   FID   57    <br />   OID_   0    <br />   Name   Relokasi Turgo",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39887906541978,
+          -7.635508335838821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 58,
+        "Name": "Wringin Lor",
+        "descriptio": "Wringin Lor    <br />       <br />   FID   58    <br />   OID_   0    <br />   Name   Wringin Lor",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39823227841512,
+          -7.643850836408495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 59,
+        "Name": "Patra",
+        "descriptio": "Patra    <br />       <br />   FID   59    <br />   OID_   0    <br />   Name   Patra",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39321967912903,
+          -7.645453432584983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 60,
+        "Name": "Sudimoro",
+        "descriptio": "Sudimoro    <br />       <br />   FID   60    <br />   OID_   0    <br />   Name   Sudimoro",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3996067008,
+          -7.638820426004282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 61,
+        "Name": "SD Sanjaya Tritis",
+        "descriptio": "SD Sanjaya Tritis    <br />       <br />   FID   61    <br />   OID_   0    <br />   Name   SD Sanjaya Tritis",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41574044330504,
+          -7.594443412255378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 62,
+        "Name": "Tawangrejo RT 1 dan 2",
+        "descriptio": "Tawangrejo RT 1 dan 2    <br />       <br />   FID   62    <br />   OID_   0    <br />   Name   Tawangrejo RT 1 dan 2",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4001995888876,
+          -7.637084252909456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 63,
+        "Name": "Titik Kumpul Kaliurang Barat (Balai RT 01)",
+        "descriptio": "Titik Kumpul Kaliurang Barat (Balai RT 01)    <br />       <br />   FID   63    <br />   OID_   0    <br />   Name   Titik Kumpul Kaliurang Barat (Balai RT 01)",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42234306064422,
+          -7.603009317202762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 64,
+        "Name": "Titik Kumpul Bungker Kaliurang",
+        "descriptio": "Titik Kumpul Bungker Kaliurang    <br />       <br />   FID   64    <br />   OID_   0    <br />   Name   Titik Kumpul Bungker Kaliurang",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42491224235718,
+          -7.593642019479241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 65,
+        "Name": "Titik Kumpul Kaliurang Barat (Wisma Joyo)",
+        "descriptio": "Titik Kumpul Kaliurang Barat (Wisma Joyo)    <br />       <br />   FID   65    <br />   OID_   0    <br />   Name   Titik Kumpul Kaliurang Barat (Wisma Joyo)",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4268436202183,
+          -7.598263363945465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 66,
+        "Name": "Titik Kumpul Patung Udang",
+        "descriptio": "Titik Kumpul Patung Udang    <br />       <br />   FID   66    <br />   OID_   0    <br />   Name   Titik Kumpul Patung Udang",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42706819903937,
+          -7.603276442468182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 67,
+        "Name": "Titik Kumpul Kaliurang Timur (WIsma Puas)",
+        "descriptio": "Titik Kumpul Kaliurang Timur (WIsma Puas)    <br />       <br />   FID   67    <br />   OID_   0    <br />   Name   Titik Kumpul Kaliurang Timur (WIsma Puas)",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42888279591355,
+          -7.595966054412587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 68,
+        "Name": "Titik Kumpul Tunggularum",
+        "descriptio": "Titik Kumpul Tunggularum    <br />       <br />   FID   68    <br />   OID_   0    <br />   Name   Titik Kumpul Tunggularum",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39393833135642,
+          -7.601451083174772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 69,
+        "Name": "SD Tarakanita Rembesan",
+        "descriptio": "SD Tarakanita Rembesan    <br />       <br />   FID   69    <br />   OID_   0    <br />   Name   SD Tarakanita Rembesan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38625773567614,
+          -7.611922307091258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 70,
+        "Name": "Gondoarum",
+        "descriptio": "Gondoarum    <br />       <br />   FID   70    <br />   OID_   0    <br />   Name   Gondoarum",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38530552147483,
+          -7.6065798778419795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 71,
+        "Name": "Sempu",
+        "descriptio": "Sempu    <br />       <br />   FID   71    <br />   OID_   0    <br />   Name   Sempu",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37371725430808,
+          -7.614050356204562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 72,
+        "Name": "Barak Baru Kecamatan",
+        "descriptio": "Barak Baru Kecamatan    <br />       <br />   FID   72    <br />   OID_   0    <br />   Name   Barak Baru Kecamatan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36909991374706,
+          -7.651400792451912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 73,
+        "Name": "Pasar Balerante",
+        "descriptio": "Pasar Balerante    <br />       <br />   FID   73    <br />   OID_   0    <br />   Name   Pasar Balerante",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37472336742644,
+          -7.615127732689513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 74,
+        "Name": "Ledok Lempong",
+        "descriptio": "Ledok Lempong    <br />       <br />   FID   74    <br />   OID_   0    <br />   Name   Ledok Lempong",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37864002206574,
+          -7.617585209411959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 75,
+        "Name": "Imorejo",
+        "descriptio": "Imorejo    <br />       <br />   FID   75    <br />   OID_   0    <br />   Name   Imorejo",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3832034637097,
+          -7.619508442231471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 76,
+        "Name": "Manggungsari",
+        "descriptio": "Manggungsari    <br />       <br />   FID   76    <br />   OID_   0    <br />   Name   Manggungsari",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3870572362791,
+          -7.618484499907035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 77,
+        "Name": "Arjosari",
+        "descriptio": "Arjosari    <br />       <br />   FID   77    <br />   OID_   0    <br />   Name   Arjosari",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37469641796791,
+          -7.625580815090926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 78,
+        "Name": "Gondorejo",
+        "descriptio": "Gondorejo    <br />       <br />   FID   78    <br />   OID_   0    <br />   Name   Gondorejo",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38128106900142,
+          -7.6248418065752235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 79,
+        "Name": "Nanggrung",
+        "descriptio": "Nanggrung    <br />       <br />   FID   79    <br />   OID_   0    <br />   Name   Nanggrung",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38290701966591,
+          -7.625509585410044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 80,
+        "Name": "Becici",
+        "descriptio": "Becici    <br />       <br />   FID   80    <br />   OID_   0    <br />   Name   Becici",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36795007018323,
+          -7.630486730827355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 81,
+        "Name": "Dukuhsari",
+        "descriptio": "Dukuhsari    <br />       <br />   FID   81    <br />   OID_   0    <br />   Name   Dukuhsari",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38110140594456,
+          -7.630655899331991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 82,
+        "Name": "Gondorejo2",
+        "descriptio": "Gondorejo2    <br />       <br />   FID   82    <br />   OID_   0    <br />   Name   Gondorejo2",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37192062373958,
+          -7.633674210349311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 83,
+        "Name": "Dadapan",
+        "descriptio": "Dadapan    <br />       <br />   FID   83    <br />   OID_   0    <br />   Name   Dadapan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36570428197263,
+          -7.643031729372785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 84,
+        "Name": "Garongan Pojok",
+        "descriptio": "Garongan Pojok    <br />       <br />   FID   84    <br />   OID_   0    <br />   Name   Garongan Pojok",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37826272964635,
+          -7.641901002948202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 85,
+        "Name": "Garongan Kembang",
+        "descriptio": "Garongan Kembang    <br />       <br />   FID   85    <br />   OID_   0    <br />   Name   Garongan Kembang",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38006834336768,
+          -7.6428536624179575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 86,
+        "Name": "Garongan Kembang2",
+        "descriptio": "Garongan Kembang2    <br />       <br />   FID   86    <br />   OID_   0    <br />   Name   Garongan Kembang2",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38151463097532,
+          -7.639532700104704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 87,
+        "Name": "Kembang",
+        "descriptio": "Kembang    <br />       <br />   FID   87    <br />   OID_   0    <br />   Name   Kembang",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38425449259226,
+          -7.633994737701377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 88,
+        "Name": "Sangrejo",
+        "descriptio": "Sangrejo    <br />       <br />   FID   88    <br />   OID_   0    <br />   Name   Sangrejo",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37610677296416,
+          -7.64759021812671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 89,
+        "Name": "Kenteng",
+        "descriptio": "Kenteng    <br />       <br />   FID   89    <br />   OID_   0    <br />   Name   Kenteng",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37166011230715,
+          -7.647652540877761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 90,
+        "Name": "Puntuk",
+        "descriptio": "Puntuk    <br />       <br />   FID   90    <br />   OID_   0    <br />   Name   Puntuk",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37344775972281,
+          -7.636915086948679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 91,
+        "Name": "Tratar",
+        "descriptio": "Tratar    <br />       <br />   FID   91    <br />   OID_   0    <br />   Name   Tratar",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37931375852891,
+          -7.610221641000956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 92,
+        "Name": "Kapingrejo",
+        "descriptio": "Kapingrejo    <br />       <br />   FID   92    <br />   OID_   0    <br />   Name   Kapingrejo",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3727470738011,
+          -7.616810571531533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 93,
+        "Name": "Banjarsari",
+        "descriptio": "Banjarsari    <br />       <br />   FID   93    <br />   OID_   0    <br />   Name   Banjarsari",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37245961291013,
+          -7.619633095912523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 94,
+        "Name": "Lungguhrejo",
+        "descriptio": "Lungguhrejo    <br />       <br />   FID   94    <br />   OID_   0    <br />   Name   Lungguhrejo",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36945025670792,
+          -7.648240154940156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 95,
+        "Name": "Pertigaan Ngrangkah",
+        "descriptio": "Pertigaan Ngrangkah    <br />       <br />   FID   95    <br />   OID_   0    <br />   Name   Pertigaan Ngrangkah",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44250125562267,
+          -7.589732982185623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 96,
+        "Name": "Lapangan Parkir Pangukrejo",
+        "descriptio": "Lapangan Parkir Pangukrejo    <br />       <br />   FID   96    <br />   OID_   0    <br />   Name   Lapangan Parkir Pangukrejo",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44234854202436,
+          -7.592083751470218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 97,
+        "Name": "Musholla Mujahidin",
+        "descriptio": "Musholla Mujahidin    <br />       <br />   FID   97    <br />   OID_   0    <br />   Name   Musholla Mujahidin",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43688678509616,
+          -7.605324397313002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 98,
+        "Name": "Masjid Al Iman (Kedungsriti)",
+        "descriptio": "Masjid Al Iman (Kedungsriti)    <br />       <br />   FID   98    <br />   OID_   0    <br />   Name   Masjid Al Iman (Kedungsriti)",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43520693551463,
+          -7.609990136194821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 99,
+        "Name": "Masjid Bendosari",
+        "descriptio": "Masjid Bendosari    <br />       <br />   FID   99    <br />   OID_   0    <br />   Name   Masjid Bendosari",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43073332539907,
+          -7.612509970245324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 100,
+        "Name": "Masjid Nur Iman Pangukrejo",
+        "descriptio": "Masjid Nur Iman Pangukrejo    <br />       <br />   FID   100    <br />   OID_   0    <br />   Name   Masjid Nur Iman Pangukrejo",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43968952878299,
+          -7.5977914370208754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 101,
+        "Name": "Musholla Karangkendal",
+        "descriptio": "Musholla Karangkendal    <br />       <br />   FID   101    <br />   OID_   0    <br />   Name   Musholla Karangkendal",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44114479954348,
+          -7.616579070283954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 102,
+        "Name": "Warung Makan ANDA",
+        "descriptio": "Warung Makan ANDA    <br />       <br />   FID   102    <br />   OID_   0    <br />   Name   Warung Makan ANDA",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43341928809897,
+          -7.621743299150003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 103,
+        "Name": "Masjid Al Fath Balong",
+        "descriptio": "Masjid Al Fath Balong    <br />       <br />   FID   103    <br />   OID_   0    <br />   Name   Masjid Al Fath Balong",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43534168280725,
+          -7.622188488378049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 104,
+        "Name": "Perempatan Dusun Plosorejo",
+        "descriptio": "Perempatan Dusun Plosorejo    <br />       <br />   FID   104    <br />   OID_   0    <br />   Name   Perempatan Dusun Plosorejo",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43838697162084,
+          -7.625482874276654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 105,
+        "Name": "SD Umbulharjo I",
+        "descriptio": "SD Umbulharjo I    <br />       <br />   FID   105    <br />   OID_   0    <br />   Name   SD Umbulharjo I",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43563812685106,
+          -7.625518489120797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 106,
+        "Name": "PAUD Puspita Gambretan",
+        "descriptio": "PAUD Puspita Gambretan    <br />       <br />   FID   106    <br />   OID_   0    <br />   Name   PAUD Puspita Gambretan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4332575913478,
+          -7.624352101434153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 107,
+        "Name": "Karanggeneng",
+        "descriptio": "Karanggeneng    <br />       <br />   FID   107    <br />   OID_   0    <br />   Name   Karanggeneng",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43354505223877,
+          -7.629106669474355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 108,
+        "Name": "Rumah Pak Dukuh Karanggeneng",
+        "descriptio": "Rumah Pak Dukuh Karanggeneng    <br />       <br />   FID   108    <br />   OID_   0    <br />   Name   Rumah Pak Dukuh Karanggeneng",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43245809074484,
+          -7.632890698032556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 109,
+        "Name": "Masjid Al Huda Pentingsari",
+        "descriptio": "Masjid Al Huda Pentingsari    <br />       <br />   FID   109    <br />   OID_   0    <br />   Name   Masjid Al Huda Pentingsari",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4309489210673,
+          -7.639505989847366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 110,
+        "Name": "TK ABA Plosokerep",
+        "descriptio": "TK ABA Plosokerep    <br />       <br />   FID   110    <br />   OID_   0    <br />   Name   TK ABA Plosokerep",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44537586453227,
+          -7.639043011788245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 111,
+        "Name": "Masjid Huntap Batur",
+        "descriptio": "Masjid Huntap Batur    <br />       <br />   FID   111    <br />   OID_   0    <br />   Name   Masjid Huntap Batur",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45196051556577,
+          -7.616944129886702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 112,
+        "Name": "Dusun Batur",
+        "descriptio": "Dusun Batur    <br />       <br />   FID   112    <br />   OID_   0    <br />   Name   Dusun Batur",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45418833747071,
+          -7.614709247930272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 113,
+        "Name": "Dusun Pagerjurang",
+        "descriptio": "Dusun Pagerjurang    <br />       <br />   FID   113    <br />   OID_   0    <br />   Name   Dusun Pagerjurang",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45512258536633,
+          -7.625732178123431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 114,
+        "Name": "Dusun Kepuh",
+        "descriptio": "Dusun Kepuh    <br />       <br />   FID   114    <br />   OID_   0    <br />   Name   Dusun Kepuh",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45321815696371,
+          -7.62547397056515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 115,
+        "Name": "Dusun Kaliadem dan Manggong Baru",
+        "descriptio": "Dusun Kaliadem dan Manggong Baru    <br />       <br />   FID   115    <br />   OID_   0    <br />   Name   Dusun Kaliadem dan Manggong Baru",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44692096682115,
+          -7.62870600566689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 116,
+        "Name": "Petung",
+        "descriptio": "Petung    <br />       <br />   FID   116    <br />   OID_   0    <br />   Name   Petung",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44710062987801,
+          -7.629952514057656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 117,
+        "Name": "Dusun Manggong dan Jambususukan",
+        "descriptio": "Dusun Manggong dan Jambususukan    <br />       <br />   FID   117    <br />   OID_   0    <br />   Name   Dusun Manggong dan Jambususukan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45559869246698,
+          -7.631599680287628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 118,
+        "Name": "Titik Kumpul Wisata I",
+        "descriptio": "Titik Kumpul Wisata I    <br />       <br />   FID   118    <br />   OID_   0    <br />   Name   Titik Kumpul Wisata I",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45153830738218,
+          -7.603596992567244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 119,
+        "Name": "Titik Kumpul Wisata II (Bunker Kaliadem)",
+        "descriptio": "Titik Kumpul Wisata II (Bunker Kaliadem)    <br />       <br />   FID   119    <br />   OID_   0    <br />   Name   Titik Kumpul Wisata II (Bunker Kaliadem)",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44765758535425,
+          -7.583143636159304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 120,
+        "Name": "Titik Kumpul Dusun Kalitengah Kidul I",
+        "descriptio": "Titik Kumpul Dusun Kalitengah Kidul I    <br />       <br />   FID   120    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Kalitengah Kidul I",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4590572063113,
+          -7.5910419348504945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 121,
+        "Name": "Titik Kumpul Dusun Kalitengah Kidul II",
+        "descriptio": "Titik Kumpul Dusun Kalitengah Kidul II    <br />       <br />   FID   121    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Kalitengah Kidul II",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46026993194504,
+          -7.5936064019878335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 122,
+        "Name": "Titik Kumpul Dusun Srunen II",
+        "descriptio": "Titik Kumpul Dusun Srunen II    <br />       <br />   FID   122    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Srunen II",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46132994398045,
+          -7.598085278374457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 123,
+        "Name": "Titik Kumpul Dusun Srunen III",
+        "descriptio": "Titik Kumpul Dusun Srunen III    <br />       <br />   FID   123    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Srunen III",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46133892713328,
+          -7.6029291795907215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 124,
+        "Name": "Titik Kumpul Huntap Gading",
+        "descriptio": "Titik Kumpul Huntap Gading    <br />       <br />   FID   124    <br />   OID_   0    <br />   Name   Titik Kumpul Huntap Gading",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46525558177261,
+          -7.616917418219004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 125,
+        "Name": "Titik Kumpul Huntap Jetisumur",
+        "descriptio": "Titik Kumpul Huntap Jetisumur    <br />       <br />   FID   125    <br />   OID_   0    <br />   Name   Titik Kumpul Huntap Jetisumur",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46765408358152,
+          -7.6316263910390845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 126,
+        "Name": "Titik Kumpul Huntap Jelapan",
+        "descriptio": "Titik Kumpul Huntap Jelapan    <br />       <br />   FID   126    <br />   OID_   0    <br />   Name   Titik Kumpul Huntap Jelapan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47191209802887,
+          -7.673213003752712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 127,
+        "Name": "Titik Kumpul Dusun Plumbon",
+        "descriptio": "Titik Kumpul Dusun Plumbon    <br />       <br />   FID   127    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Plumbon",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46977410765234,
+          -7.673720458221567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 128,
+        "Name": "Titik Kumpul Dusun Plumbon II",
+        "descriptio": "Titik Kumpul Dusun Plumbon II    <br />       <br />   FID   128    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Plumbon II",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47061852401953,
+          -7.6777088512055025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 129,
+        "Name": "Titik Kumpul Perempatan Jelapan",
+        "descriptio": "Titik Kumpul Perempatan Jelapan    <br />       <br />   FID   129    <br />   OID_   0    <br />   Name   Titik Kumpul Perempatan Jelapan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47322363834385,
+          -7.67825191074846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 130,
+        "Name": "Titik Kumpul Dusun Jelapan",
+        "descriptio": "Titik Kumpul Dusun Jelapan    <br />       <br />   FID   130    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Jelapan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47570298852837,
+          -7.6779848323714255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 131,
+        "Name": "Titik Kumpul Kejambon Lor",
+        "descriptio": "Titik Kumpul Kejambon Lor    <br />       <br />   FID   131    <br />   OID_   0    <br />   Name   Titik Kumpul Kejambon Lor",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47626892715743,
+          -7.694445449178744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 132,
+        "Name": "Titik Kumpul Dusun Tempelsari",
+        "descriptio": "Titik Kumpul Dusun Tempelsari    <br />       <br />   FID   132    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Tempelsari",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47196599694591,
+          -7.683397588036779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 133,
+        "Name": "Titik Kumpul Dusun Kentingan",
+        "descriptio": "Titik Kumpul Dusun Kentingan    <br />       <br />   FID   133    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Kentingan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47324160464953,
+          -7.686415525470828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 134,
+        "Name": "Titik Kumpul Dusun Kentingan II",
+        "descriptio": "Titik Kumpul Dusun Kentingan II    <br />       <br />   FID   134    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Kentingan II",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47439144821337,
+          -7.688561007767756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 135,
+        "Name": "Titik Kumpul Dusun Tambakan",
+        "descriptio": "Titik Kumpul Dusun Tambakan    <br />       <br />   FID   135    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Tambakan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47189413172316,
+          -7.695424697769044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 136,
+        "Name": "Titik Kumpul Dusun Rogobangsan",
+        "descriptio": "Titik Kumpul Dusun Rogobangsan    <br />       <br />   FID   136    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Rogobangsan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47676300056378,
+          -7.708599822418681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 137,
+        "Name": "Titik Kumpul Dusun Ngentak",
+        "descriptio": "Titik Kumpul Dusun Ngentak    <br />       <br />   FID   137    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Ngentak",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47890099094028,
+          -7.712258517420766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 138,
+        "Name": "Titik Kumpul Dusun Ngerdi",
+        "descriptio": "Titik Kumpul Dusun Ngerdi    <br />       <br />   FID   138    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Ngerdi",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4794759127222,
+          -7.712329732581398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 139,
+        "Name": "Titik Kumpul Dusun Bokesan",
+        "descriptio": "Titik Kumpul Dusun Bokesan    <br />       <br />   FID   139    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Bokesan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47220854207265,
+          -7.705421806204357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 140,
+        "Name": "Titik Kumpul Dusun Kejambon Kidul",
+        "descriptio": "Titik Kumpul Dusun Kejambon Kidul    <br />       <br />   FID   140    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Kejambon Kidul",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47634079238019,
+          -7.695994441362766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 141,
+        "Name": "Titik Kumpul Dusun Mudal I",
+        "descriptio": "Titik Kumpul Dusun Mudal I    <br />       <br />   FID   141    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Mudal I",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47103174905028,
+          -7.653145810451312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 142,
+        "Name": "Titik Kumpul Dusun Mudal II",
+        "descriptio": "Titik Kumpul Dusun Mudal II    <br />       <br />   FID   142    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Mudal II",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47125632787134,
+          -7.654792887215574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 143,
+        "Name": "Titik Kumpul Dusun Guling Gadingan I",
+        "descriptio": "Titik Kumpul Dusun Guling Gadingan I    <br />       <br />   FID   143    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Guling Gadingan I",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46776188141564,
+          -7.654410053724469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 144,
+        "Name": "Titik Kumpul Dusun Bronggang - Suruh",
+        "descriptio": "Titik Kumpul Dusun Bronggang - Suruh    <br />       <br />   FID   144    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Bronggang - Suruh",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46225520872324,
+          -7.66421226338108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 145,
+        "Name": "Titik Kumpul Dusun Jetis I",
+        "descriptio": "Titik Kumpul Dusun Jetis I    <br />       <br />   FID   145    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Jetis I",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46232707394597,
+          -7.668174037051095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 146,
+        "Name": "Titik Kumpul Dusun Karanglo",
+        "descriptio": "Titik Kumpul Dusun Karanglo    <br />       <br />   FID   146    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Karanglo",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46254266961418,
+          -7.670524375236604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 147,
+        "Name": "Titik Kumpul Dusun Jaranan",
+        "descriptio": "Titik Kumpul Dusun Jaranan    <br />       <br />   FID   147    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Jaranan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46215639404195,
+          -7.675162693931892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 148,
+        "Name": "Titik Kumpul Dusun Cangkringan",
+        "descriptio": "Titik Kumpul Dusun Cangkringan    <br />       <br />   FID   148    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Cangkringan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46307267563188,
+          -7.67670285382547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 149,
+        "Name": "Titik Kumpul Dusun Brongkol",
+        "descriptio": "Titik Kumpul Dusun Brongkol    <br />       <br />   FID   149    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Brongkol",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46623474543242,
+          -7.678527891561723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 150,
+        "Name": "Titik Kumpul Dusun Sewon",
+        "descriptio": "Titik Kumpul Dusun Sewon    <br />       <br />   FID   150    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Sewon",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46468964314353,
+          -7.683887225361338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 151,
+        "Name": "Titik Kumpul Dusun Jiwan I",
+        "descriptio": "Titik Kumpul Dusun Jiwan I    <br />       <br />   FID   151    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Jiwan I",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47057360825532,
+          -7.665512085323553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 152,
+        "Name": "Titik Kumpul Dusun Jiwan II",
+        "descriptio": "Titik Kumpul Dusun Jiwan II    <br />       <br />   FID   152    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Jiwan II",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47104073220312,
+          -7.667622061806923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 153,
+        "Name": "Titik Kumpul Dusun Banaran",
+        "descriptio": "Titik Kumpul Dusun Banaran    <br />       <br />   FID   153    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Banaran",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46867816300556,
+          -7.666437983464874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 154,
+        "Name": "Titik Kumpul Dusun Dliring",
+        "descriptio": "Titik Kumpul Dusun Dliring    <br />       <br />   FID   154    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Dliring",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47366381283314,
+          -7.669402624540341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 155,
+        "Name": "Titik Kumpul Dusun Kauman",
+        "descriptio": "Titik Kumpul Dusun Kauman    <br />       <br />   FID   155    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Kauman",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47290024484151,
+          -7.668093911656839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 156,
+        "Name": "Titik Kumpul Dusun Jetis II",
+        "descriptio": "Titik Kumpul Dusun Jetis II    <br />       <br />   FID   156    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Jetis II",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45987467321997,
+          -7.664630699645004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 157,
+        "Name": "Titik Kumpul Dusun Panggung",
+        "descriptio": "Titik Kumpul Dusun Panggung    <br />       <br />   FID   157    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Panggung",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45410748909514,
+          -7.668280870886632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 158,
+        "Name": "Titik Kumpul Dusun Kliwang",
+        "descriptio": "Titik Kumpul Dusun Kliwang    <br />       <br />   FID   158    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Kliwang",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45636226045858,
+          -7.669456041307231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 159,
+        "Name": "Titik Kumpul Dusun Teplok",
+        "descriptio": "Titik Kumpul Dusun Teplok    <br />       <br />   FID   159    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Teplok",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45700904746325,
+          -7.670720236165997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 160,
+        "Name": "Titik Kumpul Dusun Panggung, Kliwang, Teplok",
+        "descriptio": "Titik Kumpul Dusun Panggung, Kliwang, Teplok    <br />       <br />   FID   160    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Panggung, Kliwang, Teplok",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45488902339241,
+          -7.670310708665354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 161,
+        "Name": "Titik Kumpul Dusun Kebur Lor",
+        "descriptio": "Titik Kumpul Dusun Kebur Lor    <br />       <br />   FID   161    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Kebur Lor",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4569371822405,
+          -7.676560411526134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 162,
+        "Name": "Titik Kumpul Dusun Kebur Kidul",
+        "descriptio": "Titik Kumpul Dusun Kebur Kidul    <br />       <br />   FID   162    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Kebur Kidul",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4576558344679,
+          -7.6786169175922945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 163,
+        "Name": "Titik Kumpul Huntap Kuwang",
+        "descriptio": "Titik Kumpul Huntap Kuwang    <br />       <br />   FID   163    <br />   OID_   0    <br />   Name   Titik Kumpul Huntap Kuwang",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44870861423682,
+          -7.675429774082124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 164,
+        "Name": "Titik Kumpul Dusun Kuwang",
+        "descriptio": "Titik Kumpul Dusun Kuwang    <br />       <br />   FID   164    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Kuwang",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45040643012403,
+          -7.668165134230262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 165,
+        "Name": "Titik Kumpul Huntap Gondang II",
+        "descriptio": "Titik Kumpul Huntap Gondang II    <br />       <br />   FID   165    <br />   OID_   0    <br />   Name   Titik Kumpul Huntap Gondang II",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45321815696371,
+          -7.639238887182191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 166,
+        "Name": "Titik Kumpul Huntap Gondang III",
+        "descriptio": "Titik Kumpul Huntap Gondang III    <br />       <br />   FID   166    <br />   OID_   0    <br />   Name   Titik Kumpul Huntap Gondang III",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45514953482486,
+          -7.6414202207266015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 167,
+        "Name": "Titik Kumpul Pasar Cokrokembang",
+        "descriptio": "Titik Kumpul Pasar Cokrokembang    <br />       <br />   FID   167    <br />   OID_   0    <br />   Name   Titik Kumpul Pasar Cokrokembang",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45592208596929,
+          -7.644661038560806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 168,
+        "Name": "Titik Kumpul Lapangan Cokrokembang",
+        "descriptio": "Titik Kumpul Lapangan Cokrokembang    <br />       <br />   FID   168    <br />   OID_   0    <br />   Name   Titik Kumpul Lapangan Cokrokembang",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45684735071208,
+          -7.649094864858999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 169,
+        "Name": "Titik Kumpul PAUD Srikandi Bulaksalak",
+        "descriptio": "Titik Kumpul PAUD Srikandi Bulaksalak    <br />       <br />   FID   169    <br />   OID_   0    <br />   Name   Titik Kumpul PAUD Srikandi Bulaksalak",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44714554564224,
+          -7.643877546394061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 170,
+        "Name": "Titik Kumpul SD Cancangan",
+        "descriptio": "Titik Kumpul SD Cancangan    <br />       <br />   FID   170    <br />   OID_   0    <br />   Name   Titik Kumpul SD Cancangan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43349115332173,
+          -7.639897740120858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 171,
+        "Name": "Titik Kumpul Rumah Publik Cancangan",
+        "descriptio": "Titik Kumpul Rumah Publik Cancangan    <br />       <br />   FID   171    <br />   OID_   0    <br />   Name   Titik Kumpul Rumah Publik Cancangan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43721916175132,
+          -7.638624550418473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 172,
+        "Name": "Titik Kumpul SD Watuadeg",
+        "descriptio": "Titik Kumpul SD Watuadeg    <br />       <br />   FID   172    <br />   OID_   0    <br />   Name   Titik Kumpul SD Watuadeg",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44384872854906,
+          -7.648703123025413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 173,
+        "Name": "Titik Kumpul Huntap Dongkelsari",
+        "descriptio": "Titik Kumpul Huntap Dongkelsari    <br />       <br />   FID   173    <br />   OID_   0    <br />   Name   Titik Kumpul Huntap Dongkelsari",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44237549148289,
+          -7.652816394334924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 174,
+        "Name": "Titik Kumpul Dongkelsari",
+        "descriptio": "Titik Kumpul Dongkelsari    <br />       <br />   FID   174    <br />   OID_   0    <br />   Name   Titik Kumpul Dongkelsari",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44241142409426,
+          -7.654970949187326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 175,
+        "Name": "Titik Kumpul Balai Desa Wukirsari",
+        "descriptio": "Titik Kumpul Balai Desa Wukirsari    <br />       <br />   FID   175    <br />   OID_   0    <br />   Name   Titik Kumpul Balai Desa Wukirsari",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44377686332632,
+          -7.658069215588077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 176,
+        "Name": "Titik Kumpul Dusun Sembungan",
+        "descriptio": "Titik Kumpul Dusun Sembungan    <br />       <br />   FID   176    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Sembungan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43367979953139,
+          -7.660686698958274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 177,
+        "Name": "Titik Kumpul Dusun Ngentak",
+        "descriptio": "Titik Kumpul Dusun Ngentak    <br />       <br />   FID   177    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Ngentak",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44020156849501,
+          -7.644144646157909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 178,
+        "Name": "Titik Kumpul Dusun Keten",
+        "descriptio": "Titik Kumpul Dusun Keten    <br />       <br />   FID   178    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Keten",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43863849990043,
+          -7.646949183587575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 179,
+        "Name": "Titik Kumpul Dusun Balangan",
+        "descriptio": "Titik Kumpul Dusun Balangan    <br />       <br />   FID   179    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Balangan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4335720016973,
+          -7.663508933415192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 180,
+        "Name": "Titik Kumpul Dusun Selorejo",
+        "descriptio": "Titik Kumpul Dusun Selorejo    <br />       <br />   FID   180    <br />   OID_   0    <br />   Name   Titik Kumpul Dusun Selorejo",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44069564190136,
+          -7.6476347343783875
+        ]
+      }
+    }
+  ]
+}

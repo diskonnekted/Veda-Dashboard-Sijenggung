@@ -1,0 +1,1429 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 0,
+        "Name": "Bank Sampah Balong",
+        "Status": "AKTIF",
+        "URUT": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37048331928479,
+          -7.656911819855327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 1,
+        "Name": "Bank Sampah Berkah (Bulusawit)",
+        "Status": "TIDAK AKTIF",
+        "URUT": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44708266357233,
+          -7.7369071481767735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 2,
+        "Name": "Bank Sampah Berkah (Kopen)",
+        "Status": "TIDAK AKTIF",
+        "URUT": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.33487410141734,
+          -7.639897740120858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 3,
+        "Name": "Bank Sampah Berkah Gondang",
+        "Status": "AKTIF",
+        "URUT": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37431912554852,
+          -7.675590022091724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 4,
+        "Name": "Bank Sampah Berseri",
+        "Status": "AKTIF",
+        "URUT": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.28150519038039,
+          -7.72735586319809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 5,
+        "Name": "Bank Sampah Butuhan",
+        "Status": "TIDAK AKTIF",
+        "URUT": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.27884617713902,
+          -7.731949052389358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 6,
+        "Name": "Bank Sampah Candi Karang",
+        "Status": "TIDAK AKTIF",
+        "URUT": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4117968392072,
+          -7.70398857540174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 7,
+        "Name": "Bank Sampah Cibuk Lor",
+        "Status": "TIDAK AKTIF",
+        "URUT": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.31017043110062,
+          -7.748692405756014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 8,
+        "Name": "Bank Sampah Fasabih",
+        "Status": "TIDAK AKTIF",
+        "URUT": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.434272687619,
+          -7.734352445416312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 9,
+        "Name": "Bank Sampah Gendong Asri",
+        "Status": "TIDAK AKTIF",
+        "URUT": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.34460285594571,
+          -7.6349385112867525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 10,
+        "Name": "Bank Sampah Jethak II",
+        "Status": "TIDAK AKTIF",
+        "URUT": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.31373674277907,
+          -7.767820493804084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 11,
+        "Name": "Bank Sampah Kabunan Maju Bersama",
+        "Status": "AKTIF",
+        "URUT": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44214192950899,
+          -7.714635316929906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 12,
+        "Name": "Bank Sampah Kartini",
+        "Status": "TIDAK AKTIF",
+        "URUT": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44198023275783,
+          -7.70125563117626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 13,
+        "Name": "Bank Sampah Kartini",
+        "Status": "AKTIF",
+        "URUT": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.48295239287222,
+          -7.763672736597041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 14,
+        "Name": "Bank Sampah Karya Asri (Dusun Timur)",
+        "Status": "AKTIF",
+        "URUT": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47432856614347,
+          -7.722940657497928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 15,
+        "Name": "Bank Sampah Kembang",
+        "Status": "TIDAK AKTIF",
+        "URUT": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3512863216605,
+          -7.6251445331094425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 16,
+        "Name": "Bank Sampah Kembangan",
+        "Status": "TIDAK AKTIF",
+        "URUT": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40108892101901,
+          -7.680254993225796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 17,
+        "Name": "Bank Sampah Kenangan",
+        "Status": "AKTIF",
+        "URUT": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.34587846364933,
+          -7.643254312961899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 18,
+        "Name": "Bank Sampah Lestari Muda Jaya",
+        "Status": "TIDAK AKTIF",
+        "URUT": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38300583434716,
+          -7.620202940849607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 19,
+        "Name": "Bank Sampah Maju Bersama (Tunggul Arum)",
+        "Status": "AKTIF",
+        "URUT": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39374968514673,
+          -7.602439449414271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 20,
+        "Name": "Bank Sampah Mekar Banyumeneng",
+        "Status": "AKTIF",
+        "URUT": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.34306673680966,
+          -7.788113650664753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 21,
+        "Name": "Bank Sampah Mendo Rejeki",
+        "Status": "AKTIF",
+        "URUT": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.49005806677059,
+          -7.805896056381875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 22,
+        "Name": "Bank Sampah Mulia Kledokan",
+        "Status": "AKTIF",
+        "URUT": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47015140007173,
+          -7.727658516737026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 23,
+        "Name": "Bank Sampah Ngaliyan",
+        "Status": "TIDAK AKTIF",
+        "URUT": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45355951677173,
+          -7.71099444632499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 24,
+        "Name": "Bank Sampah Pakem Tegal",
+        "Status": "TIDAK AKTIF",
+        "URUT": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42226221226865,
+          -7.664693019904447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 25,
+        "Name": "Bank Sampah Pamor",
+        "Status": "TIDAK AKTIF",
+        "URUT": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40234656241695,
+          -7.632552362724601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 26,
+        "Name": "Bank Sampah Pedak",
+        "Status": "TIDAK AKTIF",
+        "URUT": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41002715809725,
+          -7.713558192215271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 27,
+        "Name": "Bank Sampah Perum Nogotirto Blok V (Mlangi)",
+        "Status": "TIDAK AKTIF",
+        "URUT": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.33786549131388,
+          -7.762230802827205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 28,
+        "Name": "Bank Sampah Pusmalang",
+        "Status": "TIDAK AKTIF",
+        "URUT": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44045309677462,
+          -7.671103054994861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 29,
+        "Name": "Bank Sampah Sehati",
+        "Status": "TIDAK AKTIF",
+        "URUT": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.35116954067352,
+          -7.627993713527048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 30,
+        "Name": "Bank Sampah Sidotrampil",
+        "Status": "TIDAK AKTIF",
+        "URUT": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45057711002805,
+          -7.7589196769326065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 31,
+        "Name": "Bank Sampah Sihani Molek",
+        "Status": "TIDAK AKTIF",
+        "URUT": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.48297934233074,
+          -7.790178513321313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 32,
+        "Name": "Bank Sampah Sukunan",
+        "Status": "AKTIF",
+        "URUT": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3361137765096,
+          -7.7855503587249775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 33,
+        "Name": "Bank Sampah Susukan III",
+        "Status": "TIDAK AKTIF",
+        "URUT": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.28983257306531,
+          -7.714786648281631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 34,
+        "Name": "Bank Sampah Tonggalan",
+        "Status": "TIDAK AKTIF",
+        "URUT": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4297631448921,
+          -7.716406780536353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 35,
+        "Name": "Bank Sampah Tunas Harapan Muda",
+        "Status": "TIDAK AKTIF",
+        "URUT": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.28724542504669,
+          -7.736381966642861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 36,
+        "Name": "PSM KARANG NONGKO",
+        "Status": "AKTIF",
+        "URUT": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42650226041029,
+          -7.765817826445391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 37,
+        "Name": "PSM KARESMA MANDIRI",
+        "Status": "AKTIF",
+        "URUT": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.32773249490761,
+          -7.790623525491519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 38,
+        "Name": "PSM SAYUTI MELIK (KADILOBO)",
+        "Status": "TIDAK AKTIF",
+        "URUT": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38438923988491,
+          -7.67173515044662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 39,
+        "Name": "PSM TANI MULYO (RINGIN SARI)",
+        "Status": "AKTIF",
+        "URUT": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43421878870195,
+          -7.774184462237129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 40,
+        "Name": "Sedekah Sampah Permata",
+        "Status": "AKTIF",
+        "URUT": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4767450342581,
+          -7.746725251995745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 41,
+        "Name": "Shodaqoh Sampah Amrih Lesteri",
+        "Status": "AKTIF",
+        "URUT": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44594180316135,
+          -7.720465985736371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 42,
+        "Name": "Sodaqoh Sampah Cibuk Kidul",
+        "Status": "AKTIF",
+        "URUT": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.31280249488346,
+          -7.754041949361452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 43,
+        "Name": "BS AKAR RUMPUT",
+        "Status": "TIDAK AKTIF",
+        "URUT": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40572422788571,
+          -7.784517917263927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 44,
+        "Name": "BS ANGGREK KALONGAN",
+        "Status": "AKTIF",
+        "URUT": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.34334521454777,
+          -7.730916479329398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 45,
+        "Name": "BS ANYELIR",
+        "Status": "AKTIF",
+        "URUT": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38319448055685,
+          -7.744633472080979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 46,
+        "Name": "BS BALANGAN",
+        "Status": "AKTIF",
+        "URUT": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.26533551526398,
+          -7.717190138960786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 47,
+        "Name": "BS BANARAN BERSERI",
+        "Status": "AKTIF",
+        "URUT": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.23873639969749,
+          -7.732589958535111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 48,
+        "Name": "BS BERKAH",
+        "Status": "AKTIF",
+        "URUT": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40638898119605,
+          -7.783966094060739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 49,
+        "Name": "BS BERKAS RESIK",
+        "Status": "AKTIF",
+        "URUT": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36817464900427,
+          -7.769306911847818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 50,
+        "Name": "BS BLENDUNG PERTIWI",
+        "Status": "AKTIF",
+        "URUT": 51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2692791193618,
+          -7.787891143305444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 51,
+        "Name": "BS GENDUL",
+        "Status": "AKTIF",
+        "URUT": 52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4341648897849,
+          -7.814920471482296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 52,
+        "Name": "BS GOWOK",
+        "Status": "AKTIF",
+        "URUT": 53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40180757324642,
+          -7.786983312054795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 53,
+        "Name": "BS HANDAYANI",
+        "Status": "AKTIF",
+        "URUT": 54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37912511231924,
+          -7.736212840246962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 54,
+        "Name": "BS KADIPOLO",
+        "Status": "AKTIF",
+        "URUT": 55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42206458290612,
+          -7.810488386654645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 55,
+        "Name": "BS KAMPUNG BERSERI",
+        "Status": "AKTIF",
+        "URUT": 56
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.30743955263651,
+          -7.786725202810652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 56,
+        "Name": "BS KARANGASEM RT.04",
+        "Status": "AKTIF",
+        "URUT": 57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42474156245318,
+          -7.813870303024912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 57,
+        "Name": "BS KARANGASEM RT.05",
+        "Status": "AKTIF",
+        "URUT": 58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42492122551002,
+          -7.815338758183053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 58,
+        "Name": "BS KUNCUP MEKAR",
+        "Status": "AKTIF",
+        "URUT": 59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.33762294618714,
+          -7.665004621064823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 59,
+        "Name": "BS LODOYONG ASRI",
+        "Status": "AKTIF",
+        "URUT": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.32591789803342,
+          -7.648222348465311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 60,
+        "Name": "BS LUMBUNG SAMPAH GAJAH WONG",
+        "Status": "AKTIF",
+        "URUT": 61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39772023870309,
+          -7.779400174202879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 61,
+        "Name": "BS MEKAR (BANYUMENENG)",
+        "Status": "AKTIF",
+        "URUT": 62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.34312961887954,
+          -7.788078049495214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 62,
+        "Name": "BS MINA SEMBADA",
+        "Status": "AKTIF",
+        "URUT": 63
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40876951669931,
+          -7.742995645663961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 63,
+        "Name": "BS NGUDI BAROKAH (EDIPENI)",
+        "Status": "AKTIF",
+        "URUT": 64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40166384280093,
+          -7.761963777512153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 64,
+        "Name": "BS NGUDI KASIL",
+        "Status": "AKTIF",
+        "URUT": 65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.32660960080229,
+          -7.650946730475279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 65,
+        "Name": "BS NGUDI RESIK",
+        "Status": "AKTIF",
+        "URUT": 66
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.50157446871461,
+          -7.8062965523098296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 66,
+        "Name": "BS PENDULAN BERSERI",
+        "Status": "AKTIF",
+        "URUT": 67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.23977844542722,
+          -7.776943635348301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 67,
+        "Name": "BS PLALANGAN",
+        "Status": "AKTIF",
+        "URUT": 68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36803091855882,
+          -7.680878172515046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 68,
+        "Name": "BS PLOSOKUNING",
+        "Status": "AKTIF",
+        "URUT": 69
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40484387890714,
+          -7.733969683739689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 69,
+        "Name": "BS PLUMBON LOR",
+        "Status": "AKTIF",
+        "URUT": 70
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3274360508638,
+          -7.673319836322795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 70,
+        "Name": "BS RAHAYU LESTARI",
+        "Status": "AKTIF",
+        "URUT": 71
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.34570778374533,
+          -7.722629098900968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 71,
+        "Name": "BS REJEKI PATEN",
+        "Status": "AKTIF",
+        "URUT": 72
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.34653423380684,
+          -7.708074605698266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 72,
+        "Name": "BS REJOSARI",
+        "Status": "AKTIF",
+        "URUT": 73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46898359020223,
+          -7.817394586725876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 73,
+        "Name": "BS SAHABAT",
+        "Status": "AKTIF",
+        "URUT": 74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.28403843948195,
+          -7.6912495221395325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 74,
+        "Name": "BS SAMIRUKUN",
+        "Status": "AKTIF",
+        "URUT": 75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38118225432014,
+          -7.779827396882821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 75,
+        "Name": "BS SAWO KECIK",
+        "Status": "AKTIF",
+        "URUT": 76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41360245292854,
+          -7.74525655654605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 76,
+        "Name": "BS SEDYO LUHUR",
+        "Status": "AKTIF",
+        "URUT": 77
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47576587059827,
+          -7.819067721095342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 77,
+        "Name": "BS SEMBUH WETAN (TPS 3R SIDOKAR)",
+        "Status": "AKTIF",
+        "URUT": 78
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.29468347560024,
+          -7.778875045729218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 78,
+        "Name": "BS SOROGO ASRI",
+        "Status": "AKTIF",
+        "URUT": 79
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.23758655613365,
+          -7.731690909361224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 79,
+        "Name": "BS SUMPAH SURYADINI",
+        "Status": "AKTIF",
+        "URUT": 80
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39630988370682,
+          -7.7719771106867945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 80,
+        "Name": "KPSM ATRAS I",
+        "Status": "AKTIF",
+        "URUT": 81
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3447286200855,
+          -7.681563668677402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 81,
+        "Name": "KSM NGUDI REJEKI",
+        "Status": "AKTIF",
+        "URUT": 82
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43978834346427,
+          -7.818578240990003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 82,
+        "Name": "PSM APEL",
+        "Status": "AKTIF",
+        "URUT": 83
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40654169479437,
+          -7.754442494815325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 83,
+        "Name": "PSM GUYUP RUKUN",
+        "Status": "AKTIF",
+        "URUT": 84
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.31009856587788,
+          -7.785870771075031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 84,
+        "Name": "PSM KSM KOMPAK MAJU",
+        "Status": "AKTIF",
+        "URUT": 85
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42182203777938,
+          -7.7859063724321205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 85,
+        "Name": "PSM MAJU (GAMOL)",
+        "Status": "AKTIF",
+        "URUT": 86
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.29470144190594,
+          -7.806198653340664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 86,
+        "Name": "RS SARDJITO",
+        "Status": "AKTIF",
+        "URUT": 87
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3715612976259,
+          -7.768763969339896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 87,
+        "Name": "SEDEKAH SAMPAH SUMBER KULON",
+        "Status": "AKTIF",
+        "URUT": 88
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45327205588079,
+          -7.804276268936366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 88,
+        "Name": "SEDEKAH SAMPAH/ BS KRUWET",
+        "Status": "AKTIF",
+        "URUT": 89
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.26348498577843,
+          -7.759702956380648
+        ]
+      }
+    }
+  ]
+}

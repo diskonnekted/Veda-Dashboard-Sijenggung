@@ -1,0 +1,501 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 0,
+        "Name": "TPS3R SURYA DADARI",
+        "Urut": 1,
+        "STATUS": "TIDAK AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39837600886058,
+          -7.6479552512533875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 1,
+        "Name": "TPS RANDU ALAS",
+        "Urut": 2,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40952410153805,
+          -7.70245741663947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 2,
+        "Name": "TPS SEMENTARA SAMBIROTO",
+        "Urut": 3,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44611248306535,
+          -7.73054261604681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 3,
+        "Name": "TPS3R BENING",
+        "Urut": 4,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41687232056319,
+          -7.723830823651842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 4,
+        "Name": "TPS3R CAMBAHAN",
+        "Urut": 5,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.32867572595605,
+          -7.768559253130095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 5,
+        "Name": "TPS3R GAMBIR ASRI",
+        "Urut": 6,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42384324716893,
+          -7.6628946316084665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 6,
+        "Name": "TPS3R KENANGA MERDIKO (kurang aktif)",
+        "Urut": 7,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.34355182706314,
+          -7.644919234528001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 7,
+        "Name": "TPS3R LIMBAH MAKMUR",
+        "Urut": 8,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36441070796332,
+          -7.650955633655935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 8,
+        "Name": "TPS3R MANDIRI",
+        "Urut": 9,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.48945619553015,
+          -7.740298558942089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 9,
+        "Name": "TPS3R MEXICANA",
+        "Urut": 10,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41843538915778,
+          -7.717644130110653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 10,
+        "Name": "TPS3R NGUDI RAHARJO",
+        "Urut": 11,
+        "STATUS": "TIDAK AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44427991988549,
+          -7.700970763011122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 11,
+        "Name": "TPS3R PURWO BERHATI",
+        "Urut": 12,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45956924602334,
+          -7.750143287029979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 12,
+        "Name": "TPS3R RESIK",
+        "Urut": 13,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.31378165854328,
+          -7.723189904210086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 13,
+        "Name": "TPS3R SIHANI MOLEK",
+        "Urut": 14,
+        "STATUS": "TIDAK AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4873271883065,
+          -7.792973181909394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 14,
+        "Name": "TPS3R SOROGENEN RESIK",
+        "Urut": 15,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44659757331884,
+          -7.791273242410778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 15,
+        "Name": "TPS3R WONOSARI",
+        "Urut": 16,
+        "STATUS": "TIDAK AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36967483552898,
+          -7.623194614328137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 16,
+        "Name": "TPS3R ABADI",
+        "Urut": 17,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.25581337325097,
+          -7.716673834707713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 17,
+        "Name": "TPS3R AGUNG LESTARI",
+        "Urut": 18,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.23954488345332,
+          -7.775537349384541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 18,
+        "Name": "TPS3R ASMAINA",
+        "Urut": 19,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.32324091848636,
+          -7.673595820337948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 19,
+        "Name": "TPS3R ASRI MURAKABI",
+        "Urut": 20,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.32323193533352,
+          -7.67356020950736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 20,
+        "Name": "TPS3R BEN RESIK",
+        "Urut": 21,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.32663655026083,
+          -7.662511805396646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 21,
+        "Name": "TPS3R BISMA",
+        "Urut": 22,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.28800899303832,
+          -7.803706671859489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 22,
+        "Name": "TPS3R BRAMA MUDA",
+        "Urut": 23,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3903360870666,
+          -7.716602620278506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 23,
+        "Name": "TPS3R GIAAAAAT (MINAPOLAH)",
+        "Urut": 24,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4027597874477,
+          -7.739123585072417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 24,
+        "Name": "TPS JOMBOR GUMREGAH",
+        "Urut": 25,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36527309063618,
+          -7.751549657970908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 25,
+        "Name": "TPS KENANGA PONDOK",
+        "Urut": 26,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40274182114202,
+          -7.744010386694388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 26,
+        "Name": "TPS MAKMUR MANDIRI",
+        "Urut": 27,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43715627968143,
+          -7.82383789714092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 27,
+        "Name": "TPS PANDOWO LESTARI",
+        "Urut": 28,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36338662853927,
+          -7.705092430610653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 28,
+        "Name": "TPS3R ATRAS II",
+        "Urut": 29,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3459952446363,
+          -7.7044425807150105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 29,
+        "Name": "TPS SENGIR ASRI",
+        "Urut": 30,
+        "STATUS": "AKTIF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.50389212214796,
+          -7.816237628185672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 30,
+        "Name": "TPS3R ASRI MURAKABI",
+        "Urut": 31,
+        "STATUS": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.32520822895887,
+          -7.6813411051096
+        ]
+      }
+    }
+  ]
+}

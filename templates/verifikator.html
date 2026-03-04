@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verifikator Data Penduduk Sijenggung</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Grid.js for nice tables -->
+    <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
+    <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-100 h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="bg-indigo-900 text-white shadow-md z-30 h-16 flex items-center justify-between px-6">
+        <div class="flex items-center space-x-3">
+            <div class="flex flex-col">
+                <h1 class="font-bold text-xl leading-tight">Verifikator Data</h1>
+                <p class="text-xs text-indigo-200">Sinkronisasi Penduduk + Bantuan + Aset Tanah</p>
+            </div>
+        </div>
+        <div class="flex items-center space-x-4">
+             <button onclick="exportToExcel()" class="bg-green-600 hover:bg-green-700 px-4 py-2 rounded text-sm font-medium flex items-center gap-2">
+                <i class="fas fa-file-excel"></i> Export Excel Lengkap
+            </button>
+            <a href="/" class="text-indigo-200 hover:text-white text-sm">
+                <i class="fas fa-home"></i> Dashboard
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="flex-1 overflow-hidden p-6 flex flex-col">
+        
+        <!-- Filter Bar -->
+        <div class="bg-white rounded-lg shadow-sm p-4 mb-4 flex flex-wrap gap-4 items-end border border-gray-200">
+            <div>
+                <label class="block text-xs font-semibold text-gray-500 mb-1">Bantuan</label>
+                <select id="filter-aid" class="text-sm border rounded px-2 py-1.5 bg-gray-50 focus:ring-2 focus:ring-indigo-500 outline-none w-32" onchange="applyFilters()">
+                    <option value="all">Semua</option>
+                    <option value="yes">Penerima</option>
+                    <option value="no">Bukan Penerima</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-xs font-semibold text-gray-500 mb-1">Dusun</label>
+                <select id="filter-dusun" class="text-sm border rounded px-2 py-1.5 bg-gray-50 focus:ring-2 focus:ring-indigo-500 outline-none w-36" onchange="applyFilters()">
+                    <option value="all">Semua</option>
+                    <option value="1">Dusun 1</option>
+                    <option value="2">Dusun 2</option>
+                    <option value="3">Dusun 3</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-xs font-semibold text-gray-500 mb-1">Aset Tanah</label>
+                <select id="filter-land" class="text-sm border rounded px-2 py-1.5 bg-gray-50 focus:ring-2 focus:ring-indigo-500 outline-none w-32" onchange="applyFilters()">
+                    <option value="all">Semua</option>
+                    <option value="yes">Punya</option>
+                    <option value="no">Tidak Punya</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-xs font-semibold text-gray-500 mb-1">Koordinat</label>
+                <select id="filter-coords" class="text-sm border rounded px-2 py-1.5 bg-gray-50 focus:ring-2 focus:ring-indigo-500 outline-none w-32" onchange="applyFilters()">
+                    <option value="all">Semua</option>
+                    <option value="yes">Ada</option>
+                    <option value="no">Tidak Ada</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-xs font-semibold text-gray-500 mb-1">Desil</label>
+                <select id="filter-desil" class="text-sm border rounded px-2 py-1.5 bg-gray-50 focus:ring-2 focus:ring-indigo-500 outline-none w-24" onchange="applyFilters()">
+                    <option value="all">Semua</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4+">4+</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-xs font-semibold text-gray-500 mb-1">Luas Tanah (m²)</label>
+                <select id="filter-land-area" class="text-sm border rounded px-2 py-1.5 bg-gray-50 focus:ring-2 focus:ring-indigo-500 outline-none w-36" onchange="applyFilters()">
+                    <option value="all">Semua</option>
+                    <option value="<100">< 100</option>
+                    <option value="100-1000">100 - 1000</option>
+                    <option value="1000-5000">1000 - 5000</option>
+                    <option value=">5000">> 5000</option>
+                </select>
+            </div>
+            <div class="flex-1 text-right self-center">
+                <span id="missing-coords-count" class="text-xs font-bold text-red-600 bg-red-100 px-2 py-1 rounded border border-red-200">
+                    <i class="fas fa-exclamation-triangle mr-1"></i> 0 Tanpa Koordinat
+                </span>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md flex-1 overflow-hidden flex flex-col">
+            <div class="p-4 border-b flex justify-between items-center bg-gray-50">
+                <h2 class="font-bold text-gray-700">Tabel Data Terpadu</h2>
+                <div class="text-xs text-gray-500">
+                    <span class="inline-block w-3 h-3 bg-green-100 border border-green-300 mr-1"></span> Ada Bantuan
+                    <span class="inline-block w-3 h-3 bg-yellow-100 border border-yellow-300 ml-2 mr-1"></span> Ada Tanah
+                </div>
+            </div>
+            <div id="grid-container" class="flex-1 overflow-auto p-2"></div>
+        </div>
+    </div>
+
+    <!-- Edit Modal -->
+    <div id="edit-modal" class="fixed inset-0 bg-black bg-opacity-50 hidden z-50 flex items-center justify-center">
+        <div class="bg-white rounded-lg shadow-xl w-full max-w-2xl max-h-[90vh] overflow-y-auto">
+            <div class="p-4 border-b bg-gray-50 flex justify-between items-center">
+                <h3 class="font-bold text-lg">Edit Data Penduduk</h3>
+                <button onclick="closeModal()" class="text-gray-500 hover:text-gray-700"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="p-6 space-y-4">
+                <input type="hidden" id="edit-nokk">
+                
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Nama Kepala</label>
+                        <input type="text" id="edit-nama" class="mt-1 w-full border rounded p-2 bg-gray-50" readonly>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">No KK</label>
+                        <input type="text" id="display-nokk" class="mt-1 w-full border rounded p-2 bg-gray-50" readonly>
+                    </div>
+                    <div class="col-span-2">
+                        <label class="block text-sm font-medium text-gray-700">Alamat</label>
+                        <input type="text" id="edit-alamat" class="mt-1 w-full border rounded p-2">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Dusun</label>
+                        <select id="edit-dusun" class="mt-1 w-full border rounded p-2">
+                            <option value="">-- Pilih Dusun --</option>
+                            <option value="Dusun 1 (Tempuran & Sumbersari)">Dusun 1 (Tempuran & Sumbersari)</option>
+                            <option value="Dusun 2 (Semurup & Sidarja)">Dusun 2 (Semurup & Sidarja)</option>
+                            <option value="Dusun 3 (Jenggung & Mertelu)">Dusun 3 (Jenggung & Mertelu)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Desil Kesejahteraan</label>
+                        <select id="edit-desil" class="mt-1 w-full border rounded p-2">
+                            <option value="">-</option>
+                            <option value="1">1 (Sangat Miskin)</option>
+                            <option value="2">2 (Miskin)</option>
+                            <option value="3">3 (Hampir Miskin)</option>
+                            <option value="4+">4+ (Mampu)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Lokasi / Peta -->
+                <div class="border-t pt-4 mt-2">
+                    <h4 class="font-semibold text-sm mb-2 text-indigo-700">Lokasi Tempat Tinggal</h4>
+                    <div class="grid grid-cols-2 gap-4 mb-2">
+                         <div>
+                            <label class="block text-xs text-gray-500">Latitude</label>
+                            <input type="text" id="edit-lat" class="w-full border rounded p-1.5 text-sm bg-gray-50">
+                         </div>
+                         <div>
+                            <label class="block text-xs text-gray-500">Longitude</label>
+                            <input type="text" id="edit-lng" class="w-full border rounded p-1.5 text-sm bg-gray-50">
+                         </div>
+                    </div>
+                    <div id="mini-map" class="w-full h-64 border rounded z-0"></div>
+                    <div class="text-[10px] text-gray-400 mt-1 italic">Geser marker untuk memperbarui koordinat</div>
+                </div>
+
+                <div class="border-t pt-4 mt-2">
+                    <h4 class="font-semibold text-sm mb-2 text-indigo-700">Status Bantuan (Read Only - dari Sinkronisasi)</h4>
+                    <div class="flex gap-4">
+                        <label class="flex items-center space-x-2">
+                            <input type="checkbox" id="check-bpnt" disabled class="rounded text-indigo-600">
+                            <span class="text-sm">BPNT</span>
+                        </label>
+                        <label class="flex items-center space-x-2">
+                            <input type="checkbox" id="check-pkh" disabled class="rounded text-indigo-600">
+                            <span class="text-sm">PKH</span>
+                        </label>
+                        <label class="flex items-center space-x-2">
+                            <input type="checkbox" id="check-pbi" disabled class="rounded text-indigo-600">
+                            <span class="text-sm">PBI JK</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="border-t pt-4 mt-2">
+                    <h4 class="font-semibold text-sm mb-2 text-green-700">Aset Tanah (Verifikasi)</h4>
+                    <div id="land-info" class="text-sm text-gray-600 bg-gray-50 p-2 rounded max-h-40 overflow-y-auto">
+                        <!-- Checkboxes will be here -->
+                    </div>
+                    <div class="text-[10px] text-gray-400 mt-1 italic">Centang tanah yang valid milik penduduk ini</div>
+                </div>
+
+                <div class="border-t pt-4 mt-2">
+                    <label class="block text-sm font-medium text-gray-700">Catatan Verifikator</label>
+                    <textarea id="edit-catatan" rows="2" class="mt-1 w-full border rounded p-2" placeholder="Tambahkan catatan verifikasi..."></textarea>
+                </div>
+
+            </div>
+            <div class="p-4 border-t bg-gray-50 flex justify-end space-x-3">
+                <button onclick="closeModal()" class="px-4 py-2 border rounded text-gray-600 hover:bg-gray-100">Batal</button>
+                <button onclick="saveChanges()" class="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700">Simpan Perubahan</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let grid;
+        let allData = [];
+        let map = null;
+        let marker = null;
+
+        async function loadData() {
+            try {
+                console.log("Fetching data...");
+                const res = await fetch('/residents.json?v=' + new Date().getTime());
+                if (!res.ok) throw new Error("Failed to fetch residents.json");
+                
+                allData = await res.json();
+                console.log("Data loaded:", allData.length);
+                
+                if (!Array.isArray(allData)) {
+                    console.error("Data is not an array", allData);
+                    alert("Data format error");
+                    return;
+                }
+                
+                renderTable(allData);
+                updateStats(allData);
+            } catch(e) {
+                console.error("Failed to load data", e);
+                document.getElementById("grid-container").innerHTML = `<div class="p-4 text-red-600">Error loading data: ${e.message}</div>`;
+            }
+        }
+
+        function updateStats(data) {
+            const missing = data.filter(d => !d.latitude || !d.longitude).length;
+            document.getElementById('missing-coords-count').innerHTML = `<i class="fas fa-exclamation-triangle mr-1"></i> ${missing} Tanpa Koordinat`;
+        }
+
+        function applyFilters() {
+            const aid = document.getElementById('filter-aid').value;
+            const dusun = document.getElementById('filter-dusun').value;
+            const land = document.getElementById('filter-land').value;
+            const coords = document.getElementById('filter-coords').value;
+            const desil = document.getElementById('filter-desil').value;
+            const landArea = document.getElementById('filter-land-area').value;
+
+            const filtered = allData.filter(d => {
+                // Aid
+                if (aid === 'yes' && !(d.is_bpnt == "1" || d.is_pkh == "1" || d.is_pbi == "1")) return false;
+                if (aid === 'no' && (d.is_bpnt == "1" || d.is_pkh == "1" || d.is_pbi == "1")) return false;
+
+                // Dusun
+                if (dusun !== 'all') {
+                    if (!d.dusun) return false;
+                    if (!d.dusun.includes("Dusun " + dusun)) return false;
+                }
+
+                // Land
+                const hasLand = d.land_count > 0;
+                if (land === 'yes' && !hasLand) return false;
+                if (land === 'no' && hasLand) return false;
+
+                // Coords
+                const hasCoords = d.latitude && d.longitude && d.latitude !== 0;
+                if (coords === 'yes' && !hasCoords) return false;
+                if (coords === 'no' && hasCoords) return false;
+
+                // Desil
+                if (desil !== 'all') {
+                    if (desil === '4+') {
+                        // Assuming 4+ implies not 1, 2, or 3, or explicitly 4 and above?
+                        // Let's assume if it's not 1,2,3 it might be empty or 4.
+                        // Based on data, welfare_level might be "1", "2", "3".
+                        if (["1", "2", "3"].includes(d.welfare_level)) return false;
+                    } else {
+                        if (d.welfare_level !== desil) return false;
+                    }
+                }
+
+                // Land Area
+                if (landArea !== 'all') {
+                    const area = d.land_total || 0;
+                    if (landArea === '<100' && area >= 100) return false;
+                    if (landArea === '100-1000' && (area < 100 || area > 1000)) return false;
+                    if (landArea === '1000-5000' && (area <= 1000 || area > 5000)) return false;
+                    if (landArea === '>5000' && area <= 5000) return false;
+                }
+
+                return true;
+            });
+
+            renderTable(filtered);
+            updateStats(filtered);
+        }
+
+        function renderTable(data) {
+            const mappedData = mapDataToGrid(data);
+            
+            if (grid) {
+                grid.updateConfig({ data: mappedData }).forceRender();
+                return;
+            }
+
+            try {
+                grid = new gridjs.Grid({
+                    columns: [
+                        { name: 'No KK', width: '150px' },
+                        { name: 'Nama Kepala', width: '200px' },
+                        { 
+                            name: 'Alamat', 
+                            width: '250px',
+                            formatter: (cell) => gridjs.html(cell)
+                        },
+                        { name: 'Dusun', width: '100px' },
+                        { name: 'Desil', width: '80px' },
+                        { 
+                            name: 'Bantuan', 
+                            width: '150px',
+                            formatter: (cell) => gridjs.html(cell || '')
+                        },
+                        { 
+                            name: 'Tanah (m²)', 
+                            width: '100px',
+                            formatter: (cell) => {
+                                return cell > 0 ? gridjs.html(`<span class="font-bold text-green-600">${cell}</span>`) : '-';
+                            }
+                        },
+                        { 
+                            name: 'Aksi',
+                            sort: false,
+                            formatter: (cell, row) => {
+                                // Safe access to row data
+                                const no_kk = row.cells[0].data; 
+                                return gridjs.html(`<button onclick="editRow('${no_kk}')" class="text-blue-600 hover:text-blue-800 font-medium text-xs border border-blue-200 px-2 py-1 rounded bg-blue-50">Edit</button>`);
+                            }
+                        }
+                    ],
+                    data: mappedData,
+                    search: true,
+                    pagination: {
+                        limit: 15
+                    },
+                    sort: true,
+                    resizable: true,
+                    className: {
+                        table: 'w-full text-sm text-left text-gray-500',
+                        thead: 'text-xs text-gray-700 uppercase bg-gray-50',
+                        th: 'px-4 py-3',
+                        td: 'px-4 py-3 border-b'
+                    }
+                }).render(document.getElementById("grid-container"));
+            } catch (e) {
+                console.error("Grid render error", e);
+                document.getElementById("grid-container").innerHTML = `<div class="p-4 text-red-600">Error rendering table: ${e.message}</div>`;
+            }
+        }
+
+        function mapDataToGrid(data) {
+            return data.map(d => {
+                const hasCoords = d.latitude && d.longitude && d.latitude !== 0;
+                let addressHtml = d.address || '';
+                if (!hasCoords) {
+                    addressHtml += '<br><span class="text-[10px] font-bold text-red-600 bg-red-100 px-1 rounded border border-red-200 mt-1 inline-block">Belum Ada Koordinat</span>';
+                }
+
+                return [
+                    d.no_kk,
+                    d.head_name,
+                    addressHtml, // Return string, formatter will wrap it
+                    d.dusun,
+                    d.welfare_level || '-',
+                    formatAid(d),
+                    d.land_total || 0,
+                    null // Action column placeholder
+                ];
+            });
+        }
+
+        function formatAid(d) {
+            let badges = [];
+            if (d.is_bpnt == "1") badges.push('<span class="bg-blue-100 text-blue-800 text-[10px] px-1.5 py-0.5 rounded border border-blue-200">BPNT</span>');
+            if (d.is_pkh == "1") badges.push('<span class="bg-purple-100 text-purple-800 text-[10px] px-1.5 py-0.5 rounded border border-purple-200">PKH</span>');
+            if (d.is_pbi == "1") badges.push('<span class="bg-green-100 text-green-800 text-[10px] px-1.5 py-0.5 rounded border border-green-200">PBI</span>');
+            return badges.join(' ');
+        }
+
+        function editRow(no_kk) {
+            const d = allData.find(x => x.no_kk === no_kk);
+            if (!d) return;
+
+            document.getElementById('edit-nokk').value = d.no_kk;
+            document.getElementById('display-nokk').value = d.no_kk;
+            document.getElementById('edit-nama').value = d.head_name;
+            document.getElementById('edit-alamat').value = d.address;
+            document.getElementById('edit-dusun').value = d.dusun || "";
+            document.getElementById('edit-desil').value = d.welfare_level || "";
+            document.getElementById('edit-catatan').value = d.keterangan || "";
+            
+            // Coords
+            const lat = d.latitude || -7.295;
+            const lng = d.longitude || 109.665;
+            document.getElementById('edit-lat').value = d.latitude || "";
+            document.getElementById('edit-lng').value = d.longitude || "";
+
+            document.getElementById('check-bpnt').checked = (d.is_bpnt == "1");
+            document.getElementById('check-pkh').checked = (d.is_pkh == "1");
+            document.getElementById('check-pbi').checked = (d.is_pbi == "1");
+
+            // Land Info - Now with Checkboxes
+            const landDiv = document.getElementById('land-info');
+            if (d.land_list && d.land_list.length > 0) {
+                let html = `<div class="font-medium text-gray-800 mb-2">Total Awal: ${d.land_count} bidang</div>`;
+                html += `<div class="space-y-2">`;
+                
+                d.land_list.forEach((l, idx) => {
+                    // Check if already verified? For now assume all synced are checked by default
+                    // or check a property if we had it.
+                    const checked = "checked"; 
+                    html += `
+                        <label class="flex items-start space-x-2 p-1 hover:bg-gray-100 rounded border border-transparent hover:border-gray-200">
+                            <input type="checkbox" class="land-check mt-1 rounded text-green-600" value="${idx}" ${checked}>
+                            <div class="text-xs">
+                                <div class="font-semibold">${l.luas_tanah} m² - ${l.alamat_dukuh}</div>
+                                <div class="text-gray-500">Status: ${l.status}</div>
+                            </div>
+                        </label>
+                    `;
+                });
+                html += `</div>`;
+                landDiv.innerHTML = html;
+            } else {
+                landDiv.innerHTML = '<span class="text-gray-400 italic">Tidak ada data kepemilikan tanah.</span>';
+            }
+
+            document.getElementById('edit-modal').classList.remove('hidden');
+
+            // Init Map
+            setTimeout(() => {
+                if (!map) {
+                    map = L.map('mini-map').setView([lat, lng], 15);
+                    L.tileLayer('https://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}', {
+                        maxZoom: 20,
+                        subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+                        attribution: 'Google Satellite'
+                    }).addTo(map);
+
+                    // Load Boundary (Batas Desa)
+                    fetch('/boundary.geojson').then(r => r.json()).then(data => {
+                        L.geoJSON(data, {
+                            style: { color: 'yellow', weight: 2, fillOpacity: 0, dashArray: '5, 5' }
+                        }).addTo(map);
+                    }).catch(e => console.log("No boundary"));
+
+                    // Load Dusun (Batas Dusun)
+                    fetch('/layers/dusun.geojson').then(r => r.json()).then(data => {
+                        L.geoJSON(data, {
+                            style: { color: '#4f46e5', weight: 2, fillOpacity: 0 }
+                        }).addTo(map);
+                    }).catch(e => console.log("No dusun boundary"));
+
+                } else {
+                    map.invalidateSize();
+                    map.setView([lat, lng], 15);
+                }
+
+                if (marker) map.removeLayer(marker);
+                
+                // Only add marker if valid coords exist or user wants to add one
+                // If 0,0 maybe don't show marker yet? Or show at center?
+                
+                marker = L.marker([lat, lng], {draggable: true}).addTo(map);
+                
+                marker.on('dragend', function(e) {
+                    const pos = e.target.getLatLng();
+                    document.getElementById('edit-lat').value = pos.lat.toFixed(6);
+                    document.getElementById('edit-lng').value = pos.lng.toFixed(6);
+                });
+                
+                // Click map to move marker
+                map.on('click', function(e) {
+                    marker.setLatLng(e.latlng);
+                    document.getElementById('edit-lat').value = e.latlng.lat.toFixed(6);
+                    document.getElementById('edit-lng').value = e.latlng.lng.toFixed(6);
+                });
+
+            }, 200);
+        }
+
+        function closeModal() {
+            document.getElementById('edit-modal').classList.add('hidden');
+        }
+
+        async function saveChanges() {
+            const no_kk = document.getElementById('edit-nokk').value;
+            
+            // Get Land Data
+            // In a real app, we would update the land list verification status.
+            // For now, let's just count how many are checked and update the count/total?
+            // Or just store the verified list back.
+            // Since backend is simple struct, let's just update the land_count for now based on checked.
+            
+            const landChecks = document.querySelectorAll('.land-check:checked');
+            // Recalculate total?
+            // Need reference to original list to filter.
+            const d = allData.find(x => x.no_kk === no_kk);
+            let newLandList = [];
+            let newTotalArea = 0;
+            
+            if (d && d.land_list) {
+                landChecks.forEach(cb => {
+                    const idx = parseInt(cb.value);
+                    if (d.land_list[idx]) {
+                        newLandList.push(d.land_list[idx]);
+                        newTotalArea += d.land_list[idx].luas_tanah; // integer math
+                    }
+                });
+            }
+            
+            const updatedData = {
+                no_kk: no_kk,
+                address: document.getElementById('edit-alamat').value,
+                dusun: document.getElementById('edit-dusun').value,
+                welfare_level: document.getElementById('edit-desil').value,
+                keterangan: document.getElementById('edit-catatan').value,
+                latitude: parseFloat(document.getElementById('edit-lat').value) || 0,
+                longitude: parseFloat(document.getElementById('edit-lng').value) || 0,
+                
+                // Send updated land data (Optional, if backend supports updating list)
+                // For now, let's just assume we update the count and total for display
+                land_count: newLandList.length,
+                land_total: newTotalArea,
+                land_list: newLandList
+            };
+
+            const payload = [updatedData]; 
+
+            try {
+                const res = await fetch('/api/save-households', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify(payload)
+                });
+                
+                if (res.ok) {
+                    alert("Data berhasil diverifikasi dan disimpan!");
+                    closeModal();
+                    loadData(); // Reload table
+                } else {
+                    alert("Gagal menyimpan data.");
+                }
+            } catch(e) {
+                console.error(e);
+                alert("Error saving data");
+            }
+        }
+
+        function exportToExcel() {
+            window.location.href = '/api/export-verifikasi';
+        }
+
+        loadData();
+    </script>
+</body>
+</html>

@@ -1,0 +1,1305 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 0,
+        "Name": "Barak Baru Kecamatan",
+        "descriptio": "Barak Baru Kecamatan    <br />       <br />   FID   0    <br />   Id   0    <br />   Nama_Barak   Barak Baru Kecamatan    <br />   Alamat   Wonokerto, Turi, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   Gud",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3689382169959,
+          -7.651311760729891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 1,
+        "Name": "Barak Girikerto",
+        "descriptio": "<img />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": "https://doc-08-9g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/k7ev1igoeulsjf90i6v75k2hbs/1617317100000/UA1jKtdrV0xM0Alod8VP1CsHBkEourqE/*/6AF2TALruw8_VHDp0vB8yvsefnmIT7EVpTzAOFQYMRLKMkpveyEQIMcK7HZbvwc9or2Ddesc9vU-pOUvL1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39028218814956,
+          -7.6252691851495324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 2,
+        "Name": "Barak Gayam",
+        "descriptio": "Barak Gayam    <br />       <br />   FID   2    <br />   Id   2    <br />   Nama_Barak   Barak Gayam    <br />   Alamat   Gayam, Argomulyo, Cangkringan, Sleman    <br />   Kapasitas   300 orang    <br />   MCK   10 unit, 8 unit berfungsi dgn baik    <br />   Air   Sumur",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4699358044035,
+          -7.65973407932092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 3,
+        "Name": "Barak Koripan",
+        "descriptio": "Barak Koripan    <br />       <br />   FID   3    <br />   Id   3    <br />   Nama_Barak   Barak Koripan    <br />   Alamat   Koripan, Sindumartani, Ngemplak, Sleman    <br />   Kapasitas   300 orang    <br />   MCK   9 unit    <br />   Air   Sumur, 1 unit    <br />   Lis",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.48140729058332,
+          -7.6975701345023895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 4,
+        "Name": "Barak Pandanpuro",
+        "descriptio": "Barak Pandanpuro    <br />       <br />   FID   4    <br />   Id   4    <br />   Nama_Barak   Barak Pandanpuro    <br />   Alamat   Pandanpuro, Hargobinangun, Pakem, Sleman    <br />   Kapasitas   300 orang    <br />   MCK   6 unit    <br />   Air   Sumur, 1 unit    <br />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41620756725284,
+          -7.641633901780813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 5,
+        "Name": "Barak Randusari",
+        "descriptio": "Barak Randusari    <br />       <br />   FID   5    <br />   Id   5    <br />   Nama_Barak   Barak Randusari    <br />   Alamat   Randusari, Argomulyo, Cangkringan, Sleman    <br />   Kapasitas   300 orang    <br />   MCK   10 unit    <br />   Air   Tidak ada    <br />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4496967610495,
+          -7.678421060300438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 6,
+        "Name": "Barak Umbulmartani",
+        "descriptio": "Barak Umbulmartani    <br />       <br />   FID   6    <br />   Id   6    <br />   Nama_Barak   Barak Umbulmartani    <br />   Alamat   Grogolan, Umbulmartani, Ngemplak, Sleman    <br />   Kapasitas   300 orang    <br />   MCK   4 unit    <br />   Air   Sumur, 1 unit",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43500032299924,
+          -7.6833886855347515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 7,
+        "Name": "Barak Brayut",
+        "descriptio": "Barak Brayut    <br />       <br />   FID   7    <br />   Id   7    <br />   Nama_Barak   Barak Brayut    <br />   Alamat   Brayut, Wukirsari, Cangkringan, Sleman    <br />   Kapasitas   300 orang    <br />   MCK   8 unit    <br />   Air   Sumur, 1 unit    <br />   Listri",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43265572010738,
+          -7.653359485633965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 8,
+        "Name": "Barak Kiyaran Wukirsari",
+        "descriptio": "Barak Kiyaran Wukirsari    <br />       <br />   FID   8    <br />   Id   8    <br />   Nama_Barak   Barak Kiyaran Wukirsari    <br />   Alamat   Kiyaran, Wukirsari, Cangkringan, Sleman    <br />   Kapasitas   322 orang    <br />   MCK   4 unit    <br />   Air   Sumur,",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4401566527308,
+          -7.658460948816354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 9,
+        "Name": "Barak Plosokerep",
+        "descriptio": "Barak Plosokerep    <br />       <br />   FID   9    <br />   Id   9    <br />   Nama_Barak   Barak Plosokerep    <br />   Alamat   Sambisari, Plosokerep, Umbulharjo, Cangkringan, Sleman    <br />   Kapasitas   300 orang    <br />   MCK   9 unit    <br />   Air   Tidak",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.445618409659,
+          -7.639229983757128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 10,
+        "Name": "Barak Pondokrejo",
+        "descriptio": "Barak Pondokrejo    <br />       <br />   FID   10    <br />   Id   10    <br />   Nama_Barak   Barak Pondokrejo    <br />   Alamat   Banjarharjo, Pondokrejo, Tempel, Sleman    <br />   Kapasitas   300 orang    <br />   MCK   2 unit    <br />   Air   Sumur, 1 unit    ",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.30750243470641,
+          -7.664265680799372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 11,
+        "Name": "Barak Purwobinangun",
+        "descriptio": "Barak Purwobinangun    <br />       <br />   FID   11    <br />   Id   11    <br />   Nama_Barak   Barak Purwobinangun    <br />   Alamat   Watuadeg, Purwobinangun, Pakem, Sleman    <br />   Kapasitas   300 orang    <br />   MCK   6 unit, 2 berfungsi dengan baik, dan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39274357202837,
+          -7.648213445227609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 12,
+        "Name": "Barak Tirtomartani",
+        "descriptio": "Barak Tirtomartani    <br />       <br />   FID   12    <br />   Id   12    <br />   Nama_Barak   Barak Tirtomartani    <br />   Alamat   Kedulan, Tirtomartani, Kalasan, Sleman    <br />   Kapasitas   300 orang    <br />   MCK   10 unit, 4 unit kondisinya baik, dan 6",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46921715217613,
+          -7.743556423903913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 13,
+        "Name": "Barak Wonokerto",
+        "descriptio": "Barak Wonokerto    <br />       <br />   FID   13    <br />   Id   13    <br />   Nama_Barak   Barak Wonokerto    <br />   Alamat   Wonokerto, Turi, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   Gudang_Log",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38271837345621,
+          -7.620941957373068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 14,
+        "Name": "Barak Tanggung",
+        "descriptio": "Barak Tanggung    <br />       <br />   FID   14    <br />   Id   14    <br />   Nama_Barak   Barak Tanggung    <br />   Alamat   Girikerto, Turi, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   Gudang_Log",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39293221823806,
+          -7.639621734283755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 15,
+        "Name": "Barak Desa Glagaharjo",
+        "descriptio": "Barak Desa Glagaharjo    <br />       <br />   FID   15    <br />   Id   16    <br />   Nama_Barak   Barak Desa Glagaharjo    <br />   Alamat   Glagaharjo, Cangkringan, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46790561186111,
+          -7.648106606360676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 16,
+        "Name": "Barak Sindumartani",
+        "descriptio": "Barak Sindumartani    <br />       <br />   FID   16    <br />   Id   17    <br />   Nama_Barak   Barak Sindumartani    <br />   Alamat   Sindumartani, Ngemplak, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.47639469129723,
+          -7.692210973474767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 17,
+        "Name": "Barak Gondanglegi",
+        "descriptio": "Barak Gondanglegi    <br />       <br />   FID   17    <br />   Id   18    <br />   Nama_Barak   Barak Gondanglegi    <br />   Alamat   Hargobinangun, Pakem, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   Gu",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4109075070758,
+          -7.6403785240563575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 18,
+        "Name": "Barak Desa Umbulharjo",
+        "descriptio": "Barak Desa Umbulharjo    <br />       <br />   FID   18    <br />   Id   19    <br />   Nama_Barak   Barak Desa Umbulharjo    <br />   Alamat   Umbulharjo, Cangkringan, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43299707991537,
+          -7.625812311471912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 19,
+        "Name": "Barak Pagerjurang",
+        "descriptio": "Barak Pagerjurang    <br />       <br />   FID   19    <br />   Id   20    <br />   Nama_Barak   Barak Pagerjurang    <br />   Alamat   Kepuharjo, Cangkringan, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45327205588079,
+          -7.625171244263951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 20,
+        "Name": "Barak Merdikorejo",
+        "descriptio": "Barak Merdikorejo    <br />       <br />   FID   20    <br />   Id   21    <br />   Nama_Barak   Barak Merdikorejo    <br />   Alamat   Merdikorejo, Tempel, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   Gud",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.34366860805011,
+          -7.632908505146617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 21,
+        "Name": "Barak Bimomartani",
+        "descriptio": "Barak Bimomartani    <br />       <br />   FID   21    <br />   Id   22    <br />   Nama_Barak   Barak Bimomartani    <br />   Alamat   Bimomartani, Ngemplak, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   G",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46162638802426,
+          -7.6998936035304935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 22,
+        "Name": "Barak Candibinangun",
+        "descriptio": "Barak Candibinangun    <br />       <br />   FID   22    <br />   Id   23    <br />   Nama_Barak   Barak Candibinangun    <br />   Alamat   Candibinangun, Pakem, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40404437830416,
+          -7.658888293745546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 23,
+        "Name": "Barak Banyurejo",
+        "descriptio": "Barak Banyurejo    <br />       <br />   FID   23    <br />   Id   24    <br />   Nama_Barak   Barak Banyurejo    <br />   Alamat   Banyurejo, Tempel, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   Gudang_Lo",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.28825153816506,
+          -7.7006502860964074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 24,
+        "Name": "Barak Sumberejo",
+        "descriptio": "Barak Sumberejo    <br />       <br />   FID   24    <br />   Id   25    <br />   Nama_Barak   Barak Sumberejo    <br />   Alamat   Sumberejo, Tempel, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   Gudang_Lo",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.30528359595434,
+          -7.674913418973621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 25,
+        "Name": "Barak Lumbungrejo",
+        "descriptio": "Barak Lumbungrejo    <br />       <br />   FID   25    <br />   Id   26    <br />   Nama_Barak   Barak Lumbungrejo    <br />   Alamat   Lumbungrejo, Tempel, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   Gud",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.32567535290667,
+          -7.6517213064973255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 26,
+        "Name": "Barak UII",
+        "descriptio": "Barak UII    <br />       <br />   FID   26    <br />   Id   27    <br />   Nama_Barak   Barak UII    <br />   Alamat   Umbulmartani, Ngemplak, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   Gudang_Log",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40935342163407,
+          -7.686744915573738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 27,
+        "Name": "Barak Desa Hargobinangun",
+        "descriptio": "Barak Desa Hargobinangun    <br />       <br />   FID   27    <br />   Id   28    <br />   Nama_Barak   Barak Desa Hargobinangun    <br />   Alamat   Hargobinangun, Pakem, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PL",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42621479951933,
+          -7.638722488222604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 28,
+        "Name": "Barak Purwobinangun 2",
+        "descriptio": "Barak Purwobinangun 2    <br />       <br />   FID   28    <br />   Id   29    <br />   Nama_Barak   Barak Purwobinangun 2    <br />   Alamat   Purwobinangun, Pakem, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    ",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39407307864906,
+          -7.6495133159657325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 29,
+        "Name": "Barak Desa Purwobinangun",
+        "descriptio": "Barak Desa Purwobinangun    <br />       <br />   FID   29    <br />   Id   30    <br />   Nama_Barak   Barak Desa Purwobinangun    <br />   Alamat   Purwobinangun, Pakem, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PL",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3922854312334,
+          -7.649130477735129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 30,
+        "Name": "Barak Desa Bimomartani",
+        "descriptio": "Barak Desa Bimomartani    <br />       <br />   FID   30    <br />   Id   31    <br />   Nama_Barak   Barak Desa Bimomartani    <br />   Alamat   Bimomartani, Ngemplak, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46515676709133,
+          -7.6992971586733425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 31,
+        "Name": "Barak Desa Kepuharjo",
+        "descriptio": "Barak Desa Kepuharjo    <br />       <br />   FID   31    <br />   Id   32    <br />   Nama_Barak   Barak Desa Kepuharjo    <br />   Alamat   Kepuharjo, Cangkringan, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    ",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45261628572328,
+          -7.625028784753999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 32,
+        "Name": "Youth Centre",
+        "descriptio": "Youth Centre    <br />       <br />   FID   32    <br />   Id   33    <br />   Nama_Barak   Youth Centre    <br />   Alamat   Triharjo, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   Gudang_Log       <br />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.34719000396433,
+          -7.734023092366584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 33,
+        "Name": "Gor Pangukan",
+        "descriptio": "Gor Pangukan    <br />       <br />   FID   33    <br />   Id   34    <br />   Nama_Barak   Gor Pangukan    <br />   Alamat   Pangukan, Tridadi, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   Gudang_Log",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.34585151419081,
+          -7.710006331782541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 34,
+        "Name": "PPPPTK Seni dan Budaya Yogyakarta",
+        "descriptio": "PPPPTK Seni dan Budaya Yogyakarta    <br />       <br />   FID   34    <br />   Id   35    <br />   Nama_Barak   PPPPTK Seni dan Budaya Yogyakarta    <br />   Alamat   Klidon, Sukoharjo, Ngaglik, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ad",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42752633983433,
+          -7.7004099282513145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 35,
+        "Name": "PSAA Banjarharjo, Bimomartani",
+        "descriptio": "PSAA Banjarharjo, Bimomartani    <br />       <br />   FID   35    <br />   Id   36    <br />   Nama_Barak   PSAA Banjarharjo, Bimomartani    <br />   Alamat   Bimomartani, Ngemplak, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   L",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4588865264073,
+          -7.682302578886319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 36,
+        "Name": "Barak Desa Wukirsari",
+        "descriptio": "Barak Desa Wukirsari    <br />       <br />   FID   36    <br />   Id   37    <br />   Nama_Barak   Barak Desa Wukirsari    <br />   Alamat   Wukirsari, Cangkringan, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    ",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44383076224337,
+          -7.657775415430529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 37,
+        "Name": "Barak Desa Tridadi",
+        "descriptio": "Barak Desa Tridadi    <br />       <br />   FID   37    <br />   Id   38    <br />   Nama_Barak   Barak Desa Tridadi    <br />   Alamat   Tridadi, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   Gudang_Log",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.35667621336597,
+          -7.713282234202388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 38,
+        "Name": "Barak Desa Pandowoharjo",
+        "descriptio": "Barak Desa Pandowoharjo    <br />       <br />   FID   38    <br />   Id   39    <br />   Nama_Barak   Barak Desa Pandowoharjo    <br />   Alamat   Pandowoharjo, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36521020856628,
+          -7.7005078518342955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 39,
+        "Name": "Barak Desa Trimulyo",
+        "descriptio": "Barak Desa Trimulyo    <br />       <br />   FID   39    <br />   Id   40    <br />   Nama_Barak   Barak Desa Trimulyo    <br />   Alamat   Trimulyo, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   Gudang_Log",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.35761046126157,
+          -7.682008795463208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 40,
+        "Name": "Barak Desa Donokerto",
+        "descriptio": "Barak Desa Donokerto    <br />       <br />   FID   40    <br />   Id   41    <br />   Nama_Barak   Barak Desa Donokerto    <br />   Alamat   Donokerto, Turi, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   G",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37931375852891,
+          -7.654240894630522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 41,
+        "Name": "Barak Desa Bangunkerto",
+        "descriptio": "Barak Desa Bangunkerto    <br />       <br />   FID   41    <br />   Id   42    <br />   Nama_Barak   Barak Desa Bangunkerto    <br />   Alamat   Bangunkerto, Turi, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    ",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.35676604489439,
+          -7.652798588051117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 42,
+        "Name": "Barak Desa Caturharjo",
+        "descriptio": "Barak Desa Caturharjo    <br />       <br />   FID   42    <br />   Id   43    <br />   Nama_Barak   Barak Desa Caturharjo    <br />   Alamat   Caturharjo, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   Guda",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.32799300634002,
+          -7.685347231486638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 43,
+        "Name": "Barak Desa Margorejo",
+        "descriptio": "Barak Desa Margorejo    <br />       <br />   FID   43    <br />   Id   44    <br />   Nama_Barak   Barak Desa Margorejo    <br />   Alamat   Margorejo, Tempel, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.33066100273425,
+          -7.663384292540566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 44,
+        "Name": "Barak Desa Argomulyo",
+        "descriptio": "Barak Desa Argomulyo    <br />       <br />   FID   44    <br />   Id   45    <br />   Nama_Barak   Barak Desa Argomulyo    <br />   Alamat   Argomulyo, Cangkringan, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    ",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.456452091987,
+          -7.659511504332293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 45,
+        "Name": "MTS 7 Sleman",
+        "descriptio": "MTS 7 Sleman    <br />       <br />   FID   45    <br />   Id   0    <br />   Nama_Barak   MTS 7 Sleman    <br />   Alamat   Bunder, Purwobinangun, Pakem, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   Gudan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39115355397527,
+          -7.658487657886989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 46,
+        "Name": "Barak Desa Donoharjo",
+        "descriptio": "Barak Desa Donoharjo    <br />       <br />   FID   46    <br />   Id   0    <br />   Nama_Barak   Barak Desa Donoharjo    <br />   Alamat   Donoharjo, Ngaglik, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38852149019242,
+          -7.68755503609088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 47,
+        "Name": "Pondok Darul Hikmah",
+        "descriptio": "Pondok Darul Hikmah    <br />       <br />   FID   47    <br />   Id   0    <br />   Nama_Barak   Pondok Darul Hikmah    <br />   Alamat   Sembung, Purwobinangun, Pakem, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39073134579168,
+          -7.673266420041119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 48,
+        "Name": "SLB Pakem",
+        "descriptio": "SLB Pakem    <br />       <br />   FID   48    <br />   Id   0    <br />   Nama_Barak   SLB Pakem    <br />   Alamat   Pakem, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   Gudang_Log       <br />   Lapangan",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42405884283716,
+          -7.664149943051269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 49,
+        "Name": "Balai Desa Pakembinangun",
+        "descriptio": "Balai Desa Pakembinangun    <br />       <br />   FID   49    <br />   Id   0    <br />   Nama_Barak   Balai Desa Pakembinangun    <br />   Alamat   Pakembinangun, Pakem, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42207356605896,
+          -7.659004032923435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 50,
+        "Name": "SMA Negeri 1 Pakem",
+        "descriptio": "SMA Negeri 1 Pakem    <br />       <br />   FID   50    <br />   Id   0    <br />   Nama_Barak   SMA Negeri 1 Pakem    <br />   Alamat   Gambiran, Pakembinangun, Pakem, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42215441443456,
+          -7.658549979045283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 51,
+        "Name": "SD Koroulon",
+        "descriptio": "SD Koroulon    <br />       <br />   FID   51    <br />   Id   0    <br />   Nama_Barak   SD Koroulon    <br />   Alamat   Koroulon, Bimomartani, Ngemplak, Sleman    <br />   Kapasitas       <br />   MCK   Ada    <br />   Air   Ada    <br />   Listrik   PLN    <br />   Guda",
+        "timestamp": " ",
+        "begin": " ",
+        "end": " ",
+        "altitudeMo": " ",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": -1,
+        "drawOrder": 0,
+        "icon": " ",
+        "gx_media_l": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4745890775759,
+          -7.711341621157038
+        ]
+      }
+    }
+  ]
+}
