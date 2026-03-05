@@ -1,23 +1,29 @@
-# Peta Sebaran Penduduk Pondokrejo
+# Dasbor Geospasial Desa Sijenggung Banjarnegara
+**VEDA - Visual Economic Data Analytics**
 
-Aplikasi pemetaan status kesejahteraan penduduk Kalurahan Pondokrejo, Sleman, Yogyakarta.
+Aplikasi pemetaan status kesejahteraan dan potensi wilayah Desa Sijenggung, Banjarnegara. Sistem ini membantu pemerintah desa dalam pengambilan keputusan berbasis data spasial dan statistik.
 
-## Fitur
-- **Peta Interaktif**: Menggunakan OpenStreetMap dan Leaflet.js.
-- **Marker Cluster**: Mengelompokkan marker untuk performa yang lebih baik.
-- **Status Kesejahteraan**: Marker berwarna berdasarkan tingkat kesejahteraan (Desil).
-  - Merah: Desil 1 (Sangat Miskin)
-  - Oranye: Desil 2 (Miskin)
-  - Kuning: Desil 3 (Hampir Miskin)
-  - Hijau: Desil 4+ (Mampu)
-- **Detail Penduduk**: Popup card menampilkan informasi Kepala Keluarga, Alamat, dan Anggota Keluarga beserta bantuan yang diterima.
+## Fitur Utama
+- **Peta Sebaran Kesejahteraan**: Visualisasi tingkat kesejahteraan penduduk (Desil 1-4) dengan marker warna-warni.
+- **Layer Tematik Lengkap**:
+  - **Fasilitas Desa**: Kantor desa, tanah kas desa.
+  - **Kesehatan**: Posyandu, Puskesmas, Bidan, Apotik.
+  - **Kebencanaan**: Rawan Longsor, Rawan Banjir, EWS, Titik Kejadian Bencana.
+  - **Infrastruktur**: Jalan, Jembatan, Irigasi.
+  - **Potensi Ekonomi**: UMKM, Wisata, Pertanian.
+- **Analitik Data (VEDA Analytics)**:
+  - Statistik kemiskinan per dusun.
+  - Analisis *Exclusion Error* bantuan sosial (PKH/BPNT).
+  - Korelasi tingkat pendidikan vs kesejahteraan.
+  - Rekomendasi *Action Plan* strategis.
+- **Editor Spasial**: Fitur untuk memperbarui koordinat penduduk dan data spasial secara langsung.
 
 ## Teknologi
-- **Backend**: Golang (Gin Framework)
-- **Frontend**: HTML, Tailwind CSS, Leaflet.js
-- **Data**: Excel (.xlsx) parsing
+- **Backend**: Golang (Gin Framework) - High Performance & Low Latency.
+- **Frontend**: HTML5, Tailwind CSS, Leaflet.js (Peta Interaktif), Chart.js (Visualisasi Data).
+- **Database**: Excel-based Database (Mudah diedit oleh perangkat desa) + GeoJSON.
 
-## Cara Menjalankan
+## Cara Menjalankan (Lokal)
 
 1.  Pastikan Go terinstall.
 2.  Jalankan perintah berikut:
@@ -29,9 +35,16 @@ go run .
 
 3.  Buka browser di `http://localhost:8080`.
 
+## Cara Menjalankan (Server/CloudPanel)
+Lihat panduan lengkap di [DEPLOY_CLOUDPANEL.md](DEPLOY_CLOUDPANEL.md).
+
 ## Struktur Data
-Aplikasi membaca file `1 KK_ART Pondokrejo.xlsx` dan memetakan kolom-kolom berikut:
-- Koordinat (Kolom 44)
-- NO KK (Kolom 2)
-- ID Desil (Kolom 38)
-- Bantuan Sosial (BPNT, PKH, BLT, dll)
+Aplikasi membaca data utama dari file Excel di folder `data/`:
+- `penduduk_04_03_2026.xlsx`: Data master penduduk.
+- `pkh-sijenggung.xlsx`: Data penerima PKH.
+- `bpnt-sijenggung.xlsx`: Data penerima BPNT.
+- `tanah-sijenggung.xlsx`: Data kepemilikan aset tanah.
+
+---
+**Desa Sijenggung, Banjarnegara**
+*Menuju Desa Cerdas Berbasis Data*
