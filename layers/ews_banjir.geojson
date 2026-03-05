@@ -1,0 +1,19 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          109.666895,
+          -7.295326
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "keterangan": "Deteksi dini bahaya banjir dekat jembatan.",
+        "name": "EWS Banjir 1"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "veda-dashboard-pondokrejo",
+  "version": "1.0.0",
+  "description": "Go Application Wrapper for Node.js Hosting",
+  "scripts": {
+    "start": "chmod +x ./veda-dashboard && ./veda-dashboard"
+  },
+  "author": "",
+  "license": "ISC"
+}

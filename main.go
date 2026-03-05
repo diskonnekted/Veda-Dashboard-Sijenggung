@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strconv"
 	"strings"
 
 	"path/filepath"
@@ -28,6 +29,24 @@ func main() {
 	clipBoundary := flag.String("clip-boundary", "DEFAULT_VIEW", "Boundary GeoJSON file for -clip-geojson")
 	flag.Parse()
 
+	dataDir := os.Getenv("DATA_DIR")
+	if dataDir == "" {
+		dataDir = "../data"
+	}
+	resolveDataFile := func(name string) string {
+		candidates := []string{
+			filepath.Join(dataDir, name),
+			filepath.Join("..", "data", name),
+			filepath.Join("data", name),
+		}
+		for _, p := range candidates {
+			if _, err := os.Stat(p); err == nil {
+				return p
+			}
+		}
+		return candidates[0]
+	}
+
 	if *clipGeoJSON != "" {
 		if err := ClipGeoJSONToPondokrejoBoundary(*clipGeoJSON, *clipBoundary, *clipOut); err != nil {
 			log.Fatalf("Error clipping geojson: %v", err)
@@ -37,32 +56,32 @@ func main() {
 	}
 
 	// Parse Excel Data
-	households, err := ParseExcel("../data/penduduk_04_03_2026.xlsx")
+	households, err := ParseExcel(resolveDataFile("penduduk_04_03_2026.xlsx"))
 	if err != nil {
 		log.Printf("Warning: gagal memparsing Excel: %v", err)
 		households = []Household{}
 	}
 
 	// Sync PKH Data
-	households, err = SyncPKHData(households, "../data/pkh-sijenggung.xlsx")
+	households, err = SyncPKHData(households, resolveDataFile("pkh-sijenggung.xlsx"))
 	if err != nil {
 		log.Printf("Warning: gagal sinkronisasi PKH: %v", err)
 	}
 
 	// Sync BPNT Data
-	households, err = SyncBPNTData(households, "../data/bpnt-sijenggung.xlsx")
+	households, err = SyncBPNTData(households, resolveDataFile("bpnt-sijenggung.xlsx"))
 	if err != nil {
 		log.Printf("Warning: gagal sinkronisasi BPNT: %v", err)
 	}
 
 	// Sync PBI BPJS Data
-	households, err = SyncPBIData(households, "../data/pbi-bpjs-sijenggung.xlsx")
+	households, err = SyncPBIData(households, resolveDataFile("pbi-bpjs-sijenggung.xlsx"))
 	if err != nil {
 		log.Printf("Warning: gagal sinkronisasi PBI BPJS: %v", err)
 	}
 
 	// Sync Land Data (Tanah)
-	households, err = SyncTanahData(households, "../data/tanah-sijenggung.xlsx")
+	households, err = SyncTanahData(households, resolveDataFile("tanah-sijenggung.xlsx"))
 	if err != nil {
 		log.Printf("Warning: gagal sinkronisasi Tanah: %v", err)
 	}
@@ -113,6 +132,11 @@ func main() {
 
 	r.GET("/editor", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "editor.html", nil)
+	})
+
+	// Serve Analytics Page
+	r.GET("/analitik", func(c *gin.Context) {
+		c.HTML(http.StatusOK, "analytics.html", nil)
 	})
 
 	// Serve Verifikator Page
@@ -309,10 +333,24 @@ func main() {
 	r.StaticFile("/logo.png", "./img/logo-banjarnegara.png")
 	r.StaticFile("/veda-logo.png", "./veda-logo.png")
 	r.StaticFile("/clasnet-logo.png", "./clasnet-logo.png")
+	r.StaticFile("/Veda_AD2314.webp", "./Veda_AD2314.webp")
 
 	// Start server
-	log.Println("Server starting on :8080")
-	if err := r.Run(":8080"); err != nil {
+	host := os.Getenv("HOST")
+	if host == "" {
+		host = "127.0.0.1"
+	}
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
+	if _, err := strconv.Atoi(port); err != nil {
+		log.Fatalf("Invalid PORT: %s", port)
+	}
+	addr := host + ":" + port
+
+	log.Println("Server starting on " + addr)
+	if err := r.Run(addr); err != nil {
 		log.Fatal(err)
 	}
 }

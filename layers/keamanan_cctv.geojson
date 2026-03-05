@@ -1,0 +1,33 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          109.663742,
+          -7.30075
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "keterangan": "CCTV Online Lapangan Tempuran",
+        "name": "CCTV Lapangan Tempuran"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          109.668081,
+          -7.292899
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "keterangan": "",
+        "name": "CCTV Kantor Desa"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

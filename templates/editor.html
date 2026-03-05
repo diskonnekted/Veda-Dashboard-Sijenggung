@@ -32,8 +32,11 @@
             <button onclick="saveCurrentLayer()" class="bg-green-600 hover:bg-green-700 px-3 py-1.5 rounded text-sm font-medium flex items-center gap-2">
                 <i class="fas fa-save"></i> Simpan Perubahan
             </button>
-            <a href="/" class="text-slate-300 hover:text-white text-sm">
-                <i class="fas fa-external-link-alt"></i> Lihat Dashboard
+            <a href="/analitik" target="_blank" class="bg-teal-500 hover:bg-teal-600 text-white px-3 py-2 rounded text-sm font-bold shadow-sm transition flex items-center">
+                <i class="fa fa-chart-line mr-2"></i> Analitik
+            </a>
+            <a href="/" class="bg-blue-600 hover:bg-blue-700 text-white px-3 py-2 rounded text-sm font-bold shadow-sm transition flex items-center">
+                <i class="fa fa-map mr-2"></i> Peta Sebaran
             </a>
         </div>
     </header>
@@ -88,7 +91,10 @@
                 <div id="form-container" class="space-y-3">
                     <!-- Dynamic inputs generated here -->
                 </div>
-                <div class="mt-4 pt-3 border-t flex justify-end gap-2">
+                <div class="mt-4 pt-3 border-t flex justify-between gap-2">
+                    <button onclick="deleteSelectedFeature()" class="bg-red-500 text-white px-3 py-1.5 rounded text-sm hover:bg-red-600">
+                        <i class="fas fa-trash"></i> Hapus
+                    </button>
                     <button onclick="applyProperties()" class="bg-blue-600 text-white px-3 py-1.5 rounded text-sm hover:bg-blue-700">Update</button>
                 </div>
             </div>
@@ -113,6 +119,45 @@
             subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
             attribution: 'Google Satellite'
         }).addTo(map);
+
+        // --- Reference Layers (Batas Desa & Dusun) ---
+        const referenceLayers = L.layerGroup().addTo(map);
+
+        // Load Batas Desa (Boundary)
+        fetch('/boundary.geojson?v=' + new Date().getTime())
+            .then(res => res.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    style: {
+                        color: '#fbbf24', // Amber
+                        weight: 2,
+                        opacity: 0.8,
+                        fillColor: 'transparent', // No fill to see editing layer
+                        fillOpacity: 0,
+                        dashArray: '5, 5'
+                    },
+                    interactive: false // Make it non-clickable so it doesn't interfere with editing
+                }).addTo(referenceLayers);
+            })
+            .catch(e => console.error("Gagal memuat batas desa", e));
+
+        // Load Batas Dusun
+        fetch('/layers/dusun.geojson?v=' + new Date().getTime())
+            .then(res => res.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    style: {
+                        color: '#fff', 
+                        weight: 1,
+                        opacity: 0.6,
+                        fillColor: '#fff', 
+                        fillOpacity: 0.05, // Very slight tint
+                        dashArray: '3, 3'
+                    },
+                    interactive: false
+                }).addTo(referenceLayers);
+            })
+            .catch(e => console.error("Gagal memuat batas dusun", e));
 
         // Feature Group for Editable Layers
         const drawnItems = new L.FeatureGroup();
@@ -235,6 +280,17 @@
             }
             
             alert("Properti diupdate sementara. Klik 'Simpan Perubahan' untuk menyimpan ke server.");
+        }
+
+        function deleteSelectedFeature() {
+            if (!selectedLayer) return;
+            
+            if (confirm("Apakah Anda yakin ingin menghapus fitur ini?")) {
+                drawnItems.removeLayer(selectedLayer);
+                selectedLayer = null;
+                document.getElementById('feature-editor').classList.add('hidden');
+                document.getElementById('editor-instructions').classList.remove('hidden');
+            }
         }
 
         async function loadLayersList() {

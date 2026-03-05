@@ -14,12 +14,14 @@ Thumbs.db
 *.xlsx
 residents.json
 1 KK_ART Pondokrejo.xlsx
+temp_residents.json
 
 # Temp Files
 arcgis_*.json
 *.log
 __pycache__/
 *.pyc
+verify_suyono.py
 
 # Backup Files
 *_backup.*

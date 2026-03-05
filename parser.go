@@ -816,6 +816,10 @@ func ParseExcel(filename string) ([]Household, error) {
 			Religion:    religion,
 		}
 
+		if strings.EqualFold(relation, "Kepala Keluarga") {
+			hh.HeadName = name
+		}
+
 		hh.Members = append(hh.Members, member)
 	}
 
