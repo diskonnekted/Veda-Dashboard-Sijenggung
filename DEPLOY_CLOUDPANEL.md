@@ -20,7 +20,7 @@ Anda menggunakan site tipe **Node.js** di CloudPanel dengan port **3011**. Ini a
    {
      "name": "veda-dashboard-pondokrejo",
      "scripts": {
-       "start": "chmod +x ./veda-dashboard && ./veda-dashboard"
+       "start": "chmod +x ./veda-dashboard && HOST=127.0.0.1 PORT=3011 DATA_DIR=./data GIN_MODE=release ./veda-dashboard"
      }
    }
    ```
@@ -56,11 +56,12 @@ Upload file & folder berikut:
 1. Buka CloudPanel > Sites > `geospasial.clasnet.my.id`.
 2. Masuk ke tab **Node.js Settings** (atau **App Settings**).
 3. Pastikan **App Port** diset ke `3011`.
-4. Tambahkan **Environment Variables**:
+4. Jika ada bagian **Environment Variables**, tambahkan:
    - `HOST`: `127.0.0.1`
    - `PORT`: `3011`
-   - `DATA_DIR`: `./data`  *(agar aplikasi baca Excel dari folder data di sebelah binary)*
+   - `DATA_DIR`: `./data`
    - `GIN_MODE`: `release`
+5. Jika tidak ada menu **Environment Variables**, tidak masalah: nilai tersebut sudah diset langsung di `package.json` pada script `start`.
 
 ### 4) Restart Aplikasi
 
@@ -85,5 +86,4 @@ Jika permission denied:
 chmod +x veda-dashboard
 ```
 Lalu restart lagi dari CloudPanel.
-
 

@@ -15,6 +15,56 @@
     <style>
         body { font-family: 'Inter', sans-serif; }
         .leaflet-container { font-family: 'Inter', sans-serif; }
+        .veda-vertex-icon {
+            position: relative;
+            background: #ffffff;
+            border: 2px solid #2563eb;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,.35);
+        }
+        .veda-vertex-icon::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 6px;
+            height: 6px;
+            background: #2563eb;
+            border-radius: 9999px;
+            transform: translate(-50%, -50%);
+        }
+        .veda-vertex-touch-icon {
+            position: relative;
+            background: rgba(37,99,235,.15);
+            border: 2px solid #2563eb;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,.25);
+        }
+        .veda-vertex-touch-icon::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 8px;
+            height: 8px;
+            background: #2563eb;
+            border-radius: 9999px;
+            transform: translate(-50%, -50%);
+        }
+        .veda-vertex-first.veda-vertex-icon,
+        .veda-vertex-first.veda-vertex-touch-icon {
+            border-color: #16a34a !important;
+        }
+        .veda-vertex-first.veda-vertex-icon::after,
+        .veda-vertex-first.veda-vertex-touch-icon::after {
+            background: #16a34a !important;
+        }
+        .veda-vertex-first.veda-vertex-touch-icon {
+            background: rgba(22,163,74,.18);
+        }
+        .leaflet-draw-marker-first {
+            border-color: #16a34a !important;
+        }
     </style>
 </head>
 <body class="bg-gray-100 h-screen flex flex-col overflow-hidden">
@@ -107,6 +157,14 @@
 
         <!-- Map Area -->
         <div class="flex-1 relative bg-gray-100">
+            <div id="finish-draw-container" class="absolute bottom-6 right-6 z-[1000] hidden">
+                <button id="finish-draw-btn" type="button" onclick="finishDrawing()" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-4 py-3 rounded-full shadow-lg flex items-center gap-2">
+                    <i class="fa fa-check"></i> Selesai Area
+                </button>
+                <div class="mt-2 text-xs text-white/90 bg-black/50 px-3 py-2 rounded-lg backdrop-blur-sm">
+                    Tekan Enter untuk selesai, Esc untuk batal
+                </div>
+            </div>
             <div id="map" class="h-full w-full"></div>
         </div>
     </div>
@@ -163,14 +221,34 @@
         const drawnItems = new L.FeatureGroup();
         map.addLayer(drawnItems);
 
+        const vertexIcon = new L.DivIcon({
+            className: 'leaflet-div-icon leaflet-editing-icon veda-vertex-icon',
+            iconSize: [16, 16],
+            iconAnchor: [8, 8]
+        });
+
+        const vertexTouchIcon = new L.DivIcon({
+            className: 'leaflet-div-icon leaflet-editing-icon leaflet-touch-icon veda-vertex-touch-icon',
+            iconSize: [28, 28],
+            iconAnchor: [14, 14]
+        });
+
         // Draw Control
         const drawControl = new L.Control.Draw({
             edit: {
                 featureGroup: drawnItems
             },
             draw: {
-                polygon: true,
-                polyline: true,
+                polygon: {
+                    allowIntersection: false,
+                    showArea: true,
+                    icon: vertexIcon,
+                    touchIcon: vertexTouchIcon
+                },
+                polyline: {
+                    icon: vertexIcon,
+                    touchIcon: vertexTouchIcon
+                },
                 rectangle: true,
                 circle: false,
                 circlemarker: false,
@@ -178,6 +256,68 @@
             }
         });
         map.addControl(drawControl);
+
+        const finishDrawContainer = document.getElementById('finish-draw-container');
+        let activeDrawLayerType = null;
+
+        function setFinishButtonVisible(visible) {
+            if (visible) finishDrawContainer.classList.remove('hidden');
+            else finishDrawContainer.classList.add('hidden');
+        }
+
+        function getActiveDrawHandler() {
+            return drawControl && drawControl._toolbars && drawControl._toolbars.draw && drawControl._toolbars.draw._activeMode
+                ? drawControl._toolbars.draw._activeMode.handler
+                : null;
+        }
+
+        window.finishDrawing = function() {
+            const handler = getActiveDrawHandler();
+            if (!handler) return;
+            if (activeDrawLayerType !== 'polygon' && activeDrawLayerType !== 'polyline') return;
+
+            if (typeof handler.completeShape === 'function') handler.completeShape();
+            else if (typeof handler._finishShape === 'function') handler._finishShape();
+            else if (typeof handler._finishDrawing === 'function') handler._finishDrawing();
+
+            if (typeof handler.disable === 'function') handler.disable();
+            setFinishButtonVisible(false);
+        };
+
+        map.on('draw:drawstart', function(e) {
+            activeDrawLayerType = e.layerType || null;
+            setFinishButtonVisible(activeDrawLayerType === 'polygon' || activeDrawLayerType === 'polyline');
+        });
+
+        map.on('draw:drawstop', function() {
+            activeDrawLayerType = null;
+            setFinishButtonVisible(false);
+        });
+
+        map.on('draw:created', function() {
+            activeDrawLayerType = null;
+            setFinishButtonVisible(false);
+        });
+
+        map.on('draw:drawvertex', function() {
+            document.querySelectorAll('.veda-vertex-first').forEach(el => el.classList.remove('veda-vertex-first'));
+            const first = document.querySelector('.leaflet-draw-marker-first');
+            if (first) first.classList.add('veda-vertex-first');
+        });
+
+        document.addEventListener('keydown', function(e) {
+            if (activeDrawLayerType !== 'polygon' && activeDrawLayerType !== 'polyline') return;
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                window.finishDrawing();
+            }
+            if (e.key === 'Escape') {
+                const handler = getActiveDrawHandler();
+                if (handler && typeof handler.disable === 'function') handler.disable();
+                activeDrawLayerType = null;
+                setFinishButtonVisible(false);
+            }
+        });
 
         // State
         let currentLayerName = null;
@@ -195,6 +335,36 @@
             layer.feature = layer.feature || {};
             layer.feature.type = "Feature";
             layer.feature.properties = layer.feature.properties || {};
+            // Default style
+            if (!layer.feature.properties._style) {
+                layer.feature.properties._style = {
+                    color: '#2563eb',
+                    weight: 3,
+                    opacity: 1,
+                    fillColor: '#10b981',
+                    fillOpacity: 0.2,
+                    radius: 6
+                };
+            }
+            // Apply default style visually
+            if (layer.setStyle) {
+                layer.setStyle({
+                    color: layer.feature.properties._style.color,
+                    weight: layer.feature.properties._style.weight,
+                    opacity: layer.feature.properties._style.opacity,
+                    fillColor: layer.feature.properties._style.fillColor,
+                    fillOpacity: layer.feature.properties._style.fillOpacity
+                });
+            } else if (layer.setRadius) {
+                layer.setStyle({
+                    color: layer.feature.properties._style.color,
+                    weight: layer.feature.properties._style.weight,
+                    opacity: layer.feature.properties._style.opacity,
+                    fillColor: layer.feature.properties._style.fillColor,
+                    fillOpacity: layer.feature.properties._style.fillOpacity
+                });
+                layer.setRadius(layer.feature.properties._style.radius);
+            }
             
             // If editing households, ensure required props
             if (currentLayerName === 'households') {
@@ -219,6 +389,7 @@
         function selectFeature(layer) {
             selectedLayer = layer;
             const props = layer.feature ? layer.feature.properties : {};
+            const styleProps = (props && props._style) ? props._style : {};
             
             const container = document.getElementById('form-container');
             container.innerHTML = '';
@@ -251,6 +422,43 @@
                 };
                 container.appendChild(addBtn);
             }
+
+            // --- Style Controls (Color & Size) ---
+            const styleDiv = document.createElement('div');
+            styleDiv.className = "mt-4 pt-3 border-t";
+            styleDiv.innerHTML = `
+                <h4 class="font-bold text-gray-700 mb-2">Style</h4>
+                <div class="grid grid-cols-2 gap-2">
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Warna Garis</label>
+                        <input type="color" id="style-color" value="${styleProps.color || layer.options.color || '#2563eb'}" class="w-full h-8 border rounded">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Tebal Garis</label>
+                        <input type="number" id="style-weight" min="1" max="12" value="${styleProps.weight ?? layer.options.weight ?? 3}" class="w-full border rounded px-2 py-1 text-sm">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Opacity Garis</label>
+                        <input type="number" step="0.1" min="0" max="1" id="style-opacity" value="${styleProps.opacity ?? layer.options.opacity ?? 1}" class="w-full border rounded px-2 py-1 text-sm">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Warna Isi</label>
+                        <input type="color" id="style-fillColor" value="${styleProps.fillColor || layer.options.fillColor || '#10b981'}" class="w-full h-8 border rounded">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Opacity Isi</label>
+                        <input type="number" step="0.1" min="0" max="1" id="style-fillOpacity" value="${styleProps.fillOpacity ?? layer.options.fillOpacity ?? 0.2}" class="w-full border rounded px-2 py-1 text-sm">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Radius Titik</label>
+                        <input type="number" id="style-radius" min="3" max="20" value="${styleProps.radius ?? layer.options.radius ?? 6}" class="w-full border rounded px-2 py-1 text-sm">
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <button onclick="applyStyle()" class="bg-indigo-600 text-white px-3 py-1.5 rounded text-sm hover:bg-indigo-700">Terapkan Style</button>
+                </div>
+            `;
+            container.appendChild(styleDiv);
         }
 
         function createInput(container, label, key, value) {
@@ -280,6 +488,50 @@
             }
             
             alert("Properti diupdate sementara. Klik 'Simpan Perubahan' untuk menyimpan ke server.");
+        }
+
+        function readStyleInputs() {
+            const color = document.getElementById('style-color')?.value || '#2563eb';
+            const weight = parseFloat(document.getElementById('style-weight')?.value || '3');
+            const opacity = parseFloat(document.getElementById('style-opacity')?.value || '1');
+            const fillColor = document.getElementById('style-fillColor')?.value || '#10b981';
+            const fillOpacity = parseFloat(document.getElementById('style-fillOpacity')?.value || '0.2');
+            const radius = parseFloat(document.getElementById('style-radius')?.value || '6');
+            return { color, weight, opacity, fillColor, fillOpacity, radius };
+        }
+
+        function applyStyle() {
+            if (!selectedLayer) return;
+            const style = readStyleInputs();
+            
+            // Persist style into properties so it can be saved & reloaded
+            if (!selectedLayer.feature) selectedLayer.feature = { properties: {} };
+            selectedLayer.feature.properties = selectedLayer.feature.properties || {};
+            selectedLayer.feature.properties._style = style;
+
+            // Apply visual style depending on layer type
+            if (selectedLayer.setStyle) {
+                // Polygon / Polyline
+                selectedLayer.setStyle({
+                    color: style.color,
+                    weight: style.weight,
+                    opacity: style.opacity,
+                    fillColor: style.fillColor,
+                    fillOpacity: style.fillOpacity
+                });
+            } else if (selectedLayer.setRadius) {
+                // CircleMarker
+                selectedLayer.setStyle({
+                    color: style.color,
+                    weight: style.weight,
+                    opacity: style.opacity,
+                    fillColor: style.fillColor,
+                    fillOpacity: style.fillOpacity
+                });
+                selectedLayer.setRadius(style.radius);
+            }
+
+            alert("Style diterapkan. Klik 'Simpan Perubahan' untuk menyimpan ke server.");
         }
 
         function deleteSelectedFeature() {
@@ -342,15 +594,35 @@
                 const data = await res.json();
                 currentGeoJSON = data;
                 
+                const styleFn = (feature) => {
+                    const s = feature.properties && feature.properties._style ? feature.properties._style : null;
+                    if (!s) return { color: '#2563eb', weight: 3, opacity: 1, fillColor: '#10b981', fillOpacity: 0.2 };
+                    return {
+                        color: s.color || '#2563eb',
+                        weight: s.weight ?? 3,
+                        opacity: s.opacity ?? 1,
+                        fillColor: s.fillColor || '#10b981',
+                        fillOpacity: s.fillOpacity ?? 0.2
+                    };
+                };
+
                 L.geoJSON(data, {
+                    style: styleFn,
                     onEachFeature: (feature, layer) => {
                         drawnItems.addLayer(layer);
                         const label = feature.properties.name || feature.properties.NAMOBJ || feature.properties.Text || "Fitur";
                         layer.bindPopup(label);
                     },
                     pointToLayer: (feature, latlng) => {
-                        // Use simpler markers for editor
-                        return L.circleMarker(latlng, { radius: 6, color: 'blue' });
+                        const s = feature.properties && feature.properties._style ? feature.properties._style : {};
+                        return L.circleMarker(latlng, {
+                            radius: s.radius ?? 6,
+                            color: s.color || '#2563eb',
+                            weight: s.weight ?? 2,
+                            opacity: s.opacity ?? 1,
+                            fillColor: s.fillColor || '#10b981',
+                            fillOpacity: s.fillOpacity ?? 0.2
+                        });
                     }
                 });
                 

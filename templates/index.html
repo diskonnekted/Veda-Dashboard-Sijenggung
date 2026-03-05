@@ -896,6 +896,20 @@
         }
 
         // --- Generic Layer Handlers ---
+        const activeLayers = {};
+        function registerLayer(name, layer) {
+            // Remove previous if exists to avoid duplicates
+            if (activeLayers[name] && map.hasLayer(activeLayers[name])) {
+                map.removeLayer(activeLayers[name]);
+            }
+            activeLayers[name] = layer;
+        }
+        function unregisterLayer(name) {
+            if (activeLayers[name]) {
+                try { map.removeLayer(activeLayers[name]); } catch(e) {}
+                delete activeLayers[name];
+            }
+        }
 
         function getContourColor(val) {
             const h = Number(val) || 0;
@@ -918,10 +932,14 @@
             }
 
             if (!cb.checked) {
-                if (layerVar) {
-                    map.removeLayer(layerVar);
-                    // Don't set to null, keep instance for re-adding
+                // Remove any registered layer by name (strong removal)
+                unregisterLayer(name);
+                // Also remove the passed instance if present
+                if (layerVar && map.hasLayer(layerVar)) {
+                    try { map.removeLayer(layerVar); } catch(e) {}
                 }
+                // Nullify to avoid stale references
+                if (typeof setLayerVar === 'function') setLayerVar(null);
                 return;
             }
 
@@ -997,6 +1015,7 @@
 
                 setLayerVar(layer);
                 layer.addTo(map);
+                registerLayer(name, layer);
 
             } catch (e) {
                 console.error(e);

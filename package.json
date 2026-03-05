@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Go Application Wrapper for Node.js Hosting",
   "scripts": {
-    "start": "chmod +x ./veda-dashboard && ./veda-dashboard"
+    "start": "chmod +x ./veda-dashboard && HOST=127.0.0.1 PORT=3011 DATA_DIR=./data GIN_MODE=release ./veda-dashboard"
   },
   "author": "",
   "license": "ISC"
