@@ -1,6 +1,6 @@
 ## Deploy ke CloudPanel (Node.js Site)
 
-Anda menggunakan site tipe **Node.js** di CloudPanel dengan port **3000**. Ini adalah cara paling mudah karena CloudPanel otomatis menjalankan aplikasi via `npm start` dan mengelola reverse proxy.
+Anda menggunakan site tipe **Node.js** di CloudPanel dengan port **3011**. Ini adalah cara paling mudah karena CloudPanel otomatis menjalankan aplikasi via `npm start` dan mengelola reverse proxy.
 
 ### 1) Siapkan file di lokal (Windows)
 
@@ -55,17 +55,17 @@ Upload file & folder berikut:
 
 1. Buka CloudPanel > Sites > `geospasial.clasnet.my.id`.
 2. Masuk ke tab **Node.js Settings** (atau **App Settings**).
-3. Pastikan **App Port** diset ke `3000`.
+3. Pastikan **App Port** diset ke `3011`.
 4. Tambahkan **Environment Variables**:
    - `HOST`: `127.0.0.1`
-   - `PORT`: `3000`
+   - `PORT`: `3011`
    - `DATA_DIR`: `./data`  *(agar aplikasi baca Excel dari folder data di sebelah binary)*
    - `GIN_MODE`: `release`
 
 ### 4) Restart Aplikasi
 
 1. Klik tombol **Restart** di CloudPanel.
-2. CloudPanel akan menjalankan `npm start`, yang akan mengeksekusi `./veda-dashboard` di port 3000.
+2. CloudPanel akan menjalankan `npm start`, yang akan mengeksekusi `./veda-dashboard` di port 3011.
 3. Cek website `https://geospasial.clasnet.my.id`.
 
 ### Troubleshooting (SSH)
@@ -77,7 +77,7 @@ Jika website error 502/500, cek logs via SSH:
 cd /home/clasnet-geospasial/htdocs/geospasial.clasnet.my.id/
 
 # Cek apakah binary bisa jalan manual
-HOST=127.0.0.1 PORT=3000 DATA_DIR=./data ./veda-dashboard
+HOST=127.0.0.1 PORT=3011 DATA_DIR=./data ./veda-dashboard
 ```
 
 Jika permission denied:
